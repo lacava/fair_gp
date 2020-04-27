@@ -1,0 +1,3002 @@
+[
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(0)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.6485148514851485,
+            "auc_prc": 0.7306398400271545,
+            "auditor_fn_violation": 0.03732516108753733,
+            "auditor_fp_violation": 0.04401440144014403,
+            "ave_precision_score": 0.7101959099319574,
+            "fpr": 0.1594059405940594,
+            "logloss": 6.360505527976958,
+            "mae": 0.3501720446678783,
+            "precision": 0.6581740976645435,
+            "recall": 0.6150793650793651
+        },
+        "train": {
+            "accuracy": 0.6564356435643565,
+            "auc_prc": 0.7449842725535898,
+            "auditor_fn_violation": 0.04062335227605601,
+            "auditor_fp_violation": 0.051463496250221445,
+            "ave_precision_score": 0.7280177712707017,
+            "fpr": 0.1316831683168317,
+            "logloss": 6.54001833740839,
+            "mae": 0.3459188995466403,
+            "precision": 0.687793427230047,
+            "recall": 0.5779092702169625
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(1)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.595049504950495,
+            "auc_prc": 0.8134751607663323,
+            "auditor_fn_violation": 0.013421342134213412,
+            "auditor_fp_violation": 0.006011035886197316,
+            "ave_precision_score": 0.8108380851234305,
+            "fpr": 0.016831683168316833,
+            "logloss": 5.810737239863814,
+            "mae": 0.40251982288032523,
+            "precision": 0.8682170542635659,
+            "recall": 0.2222222222222222
+        },
+        "train": {
+            "accuracy": 0.6,
+            "auc_prc": 0.8459979252131302,
+            "auditor_fn_violation": 0.010314995996641107,
+            "auditor_fp_violation": 0.0032950809991535933,
+            "ave_precision_score": 0.8452112007067245,
+            "fpr": 0.009900990099009901,
+            "logloss": 5.7436859562213005,
+            "mae": 0.3980507790519845,
+            "precision": 0.9186991869918699,
+            "recall": 0.22287968441814596
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(2)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.500990099009901,
+            "auc_prc": 0,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0,
+            "fpr": 0.0,
+            "logloss": 17.235191389143548,
+            "mae": 0.499009900990099,
+            "precision": 0,
+            "recall": 0
+        },
+        "train": {
+            "accuracy": 0.498019801980198,
+            "auc_prc": 0,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0,
+            "fpr": 0.0,
+            "logloss": 17.337781814078927,
+            "mae": 0.501980198019802,
+            "precision": 0,
+            "recall": 0
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(3)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.4633663366336634,
+            "auc_prc": 0.3994173342244123,
+            "auditor_fn_violation": 0.009885274241709886,
+            "auditor_fp_violation": 0.016184009705318362,
+            "ave_precision_score": 0.40035621288517254,
+            "fpr": 0.0801980198019802,
+            "logloss": 15.42442174601682,
+            "mae": 0.5601021788606954,
+            "precision": 0.3467741935483871,
+            "recall": 0.08531746031746032
+        },
+        "train": {
+            "accuracy": 0.4861386138613861,
+            "auc_prc": 0.4155530043995178,
+            "auditor_fn_violation": 0.011033647743472591,
+            "auditor_fp_violation": 0.01073558648111332,
+            "ave_precision_score": 0.4161692544649474,
+            "fpr": 0.055445544554455446,
+            "logloss": 15.304312326960677,
+            "mae": 0.5450986253287508,
+            "precision": 0.44,
+            "recall": 0.08678500986193294
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(4)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.500990099009901,
+            "auc_prc": 0.7493037709718181,
+            "auditor_fn_violation": 0.0008624076693383624,
+            "auditor_fp_violation": 4.304778303919742e-05,
+            "ave_precision_score": 0.5045318821056464,
+            "fpr": 0.498019801980198,
+            "logloss": 16.878333286878608,
+            "mae": 0.49861484802360323,
+            "precision": 0.5,
+            "recall": 0.998015873015873
+        },
+        "train": {
+            "accuracy": 0.503960396039604,
+            "auc_prc": 0.7498822469763959,
+            "auditor_fn_violation": 0.0003788544534926866,
+            "auditor_fp_violation": 0.0015943940318485297,
+            "ave_precision_score": 0.5075855986991132,
+            "fpr": 0.49504950495049505,
+            "logloss": 16.734906155556583,
+            "mae": 0.49615801319775016,
+            "precision": 0.5029821073558648,
+            "recall": 0.9980276134122288
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(5)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.5485148514851486,
+            "auc_prc": 0.7685803926573915,
+            "auditor_fn_violation": 0.0036598302687411597,
+            "auditor_fp_violation": 0.007701639729190319,
+            "ave_precision_score": 0.5577870611300146,
+            "fpr": 0.4425742574257426,
+            "logloss": 13.795519859813787,
+            "mae": 0.45382440203785823,
+            "precision": 0.5254777070063694,
+            "recall": 0.9821428571428571
+        },
+        "train": {
+            "accuracy": 0.5425742574257426,
+            "auc_prc": 0.7801480787420155,
+            "auditor_fn_violation": 0.0024957525338332653,
+            "auditor_fp_violation": 0.006121685727220856,
+            "ave_precision_score": 0.5786448617859585,
+            "fpr": 0.4514851485148515,
+            "logloss": 13.158322543953878,
+            "mae": 0.4581456997055549,
+            "precision": 0.5235109717868338,
+            "recall": 0.9881656804733728
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(6)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.597029702970297,
+            "auc_prc": 0.7343928580039953,
+            "auditor_fn_violation": 0.0036853685368536866,
+            "auditor_fp_violation": 0.04922709662270576,
+            "ave_precision_score": 0.5722072651808074,
+            "fpr": 0.37524752475247525,
+            "logloss": 11.252449634539506,
+            "mae": 0.4063645143400329,
+            "precision": 0.5567251461988304,
+            "recall": 0.9444444444444444
+        },
+        "train": {
+            "accuracy": 0.6306930693069307,
+            "auc_prc": 0.7480982538011803,
+            "auditor_fn_violation": 0.007295877516745759,
+            "auditor_fp_violation": 0.06604137550932032,
+            "ave_precision_score": 0.6017922086934325,
+            "fpr": 0.3326732673267327,
+            "logloss": 10.211186750487713,
+            "mae": 0.3700143643588945,
+            "precision": 0.5831265508684863,
+            "recall": 0.9270216962524654
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(7)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.499009900990099,
+            "auc_prc": 0.7497571882315482,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.5014965153972853,
+            "fpr": 0.500990099009901,
+            "logloss": 17.116339369643036,
+            "mae": 0.5007400386404283,
+            "precision": 0.499009900990099,
+            "recall": 1.0
+        },
+        "train": {
+            "accuracy": 0.501980198019802,
+            "auc_prc": 0.7502946399368907,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.5045074461608742,
+            "fpr": 0.498019801980198,
+            "logloss": 16.986400360778926,
+            "mae": 0.4980173325184548,
+            "precision": 0.501980198019802,
+            "recall": 1.0
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(8)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.502970297029703,
+            "auc_prc": 0.800937837780452,
+            "auditor_fn_violation": 0.00047147571900047153,
+            "auditor_fp_violation": 0.002091730912221677,
+            "ave_precision_score": 0.7997610042975547,
+            "fpr": 0.49603960396039604,
+            "logloss": 3.592827384388164,
+            "mae": 0.49178644875709965,
+            "precision": 0.500996015936255,
+            "recall": 0.998015873015873
+        },
+        "train": {
+            "accuracy": 0.504950495049505,
+            "auc_prc": 0.8343139774021395,
+            "auditor_fn_violation": 0.0007577089069853731,
+            "auditor_fp_violation": 0.002031376099836628,
+            "ave_precision_score": 0.8329006299987614,
+            "fpr": 0.49306930693069306,
+            "logloss": 3.445529022899345,
+            "mae": 0.4912688580953682,
+            "precision": 0.5034895314057827,
+            "recall": 0.9960552268244576
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(9)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.6267326732673267,
+            "auc_prc": 0.682367020212579,
+            "auditor_fn_violation": 0.046188904604746193,
+            "auditor_fp_violation": 0.027593628928110205,
+            "ave_precision_score": 0.6770167257151936,
+            "fpr": 0.1198019801980198,
+            "logloss": 7.539333115117924,
+            "mae": 0.37833306954239104,
+            "precision": 0.6720867208672087,
+            "recall": 0.49206349206349204
+        },
+        "train": {
+            "accuracy": 0.6267326732673267,
+            "auc_prc": 0.7009162771974051,
+            "auditor_fn_violation": 0.04166031987814166,
+            "auditor_fp_violation": 0.054758577249375044,
+            "ave_precision_score": 0.6966337998800924,
+            "fpr": 0.10297029702970296,
+            "logloss": 7.882540183880186,
+            "mae": 0.37556906061566486,
+            "precision": 0.6923076923076923,
+            "recall": 0.46153846153846156
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(10)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.6762376237623763,
+            "auc_prc": 0.7071124044469941,
+            "auditor_fn_violation": 0.07333608360836086,
+            "auditor_fp_violation": 0.09416506868078112,
+            "ave_precision_score": 0.6291203862566913,
+            "fpr": 0.16435643564356436,
+            "logloss": 7.481656124081309,
+            "mae": 0.3301239116640723,
+            "precision": 0.6738703339882122,
+            "recall": 0.6805555555555556
+        },
+        "train": {
+            "accuracy": 0.6782178217821783,
+            "auc_prc": 0.7209181166454883,
+            "auditor_fn_violation": 0.07971175815806433,
+            "auditor_fp_violation": 0.08726846839753559,
+            "ave_precision_score": 0.6405800664857579,
+            "fpr": 0.15742574257425743,
+            "logloss": 7.849079739142196,
+            "mae": 0.3272356094129798,
+            "precision": 0.682,
+            "recall": 0.6725838264299803
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(11)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.499009900990099,
+            "auc_prc": 0.81042551618301,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.7877730774151699,
+            "fpr": 0.500990099009901,
+            "logloss": 6.326447780953609,
+            "mae": 0.5008394403622882,
+            "precision": 0.499009900990099,
+            "recall": 1.0
+        },
+        "train": {
+            "accuracy": 0.501980198019802,
+            "auc_prc": 0.8207741095373499,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.8006988974158851,
+            "fpr": 0.498019801980198,
+            "logloss": 6.05447373387704,
+            "mae": 0.4978623331773399,
+            "precision": 0.501980198019802,
+            "recall": 1.0
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(12)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.6554455445544555,
+            "auc_prc": 0.7302732655223766,
+            "auditor_fn_violation": 0.0314945780292315,
+            "auditor_fp_violation": 0.03616013775290572,
+            "ave_precision_score": 0.6628900202633474,
+            "fpr": 0.1900990099009901,
+            "logloss": 7.746332340121337,
+            "mae": 0.3470133492297225,
+            "precision": 0.6444444444444445,
+            "recall": 0.6904761904761905
+        },
+        "train": {
+            "accuracy": 0.6544554455445545,
+            "auc_prc": 0.7324962333799279,
+            "auditor_fn_violation": 0.03256195442029411,
+            "auditor_fp_violation": 0.05482353404326517,
+            "ave_precision_score": 0.6738212436972575,
+            "fpr": 0.17326732673267325,
+            "logloss": 7.688179893154112,
+            "mae": 0.3462990934894812,
+            "precision": 0.655511811023622,
+            "recall": 0.6568047337278107
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(13)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.503960396039604,
+            "auc_prc": 0.7461178092081734,
+            "auditor_fn_violation": 0.0008624076693383624,
+            "auditor_fp_violation": 0.002531992329667772,
+            "ave_precision_score": 0.5098436936563875,
+            "fpr": 0.49504950495049505,
+            "logloss": 16.428082722308044,
+            "mae": 0.4966492400605981,
+            "precision": 0.5014955134596212,
+            "recall": 0.998015873015873
+        },
+        "train": {
+            "accuracy": 0.505940594059406,
+            "auc_prc": 0.7466664330384087,
+            "auditor_fn_violation": 0.0003788544534926866,
+            "auditor_fp_violation": 0.001549121114894792,
+            "ave_precision_score": 0.5108306408258964,
+            "fpr": 0.49306930693069306,
+            "logloss": 16.396213825006207,
+            "mae": 0.4943992178708832,
+            "precision": 0.5039840637450199,
+            "recall": 0.9980276134122288
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(14)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.5564356435643565,
+            "auc_prc": 0.5989570007235185,
+            "auditor_fn_violation": 0.027015558698727026,
+            "auditor_fp_violation": 0.012828239345673698,
+            "ave_precision_score": 0.5853198074302349,
+            "fpr": 0.1702970297029703,
+            "logloss": 10.76662500007524,
+            "mae": 0.4475642309802824,
+            "precision": 0.57,
+            "recall": 0.4523809523809524
+        },
+        "train": {
+            "accuracy": 0.5732673267326732,
+            "auc_prc": 0.623939666713067,
+            "auditor_fn_violation": 0.02629718593161092,
+            "auditor_fp_violation": 0.02082554179871268,
+            "ave_precision_score": 0.6088996775552127,
+            "fpr": 0.13762376237623763,
+            "logloss": 10.327917287848084,
+            "mae": 0.4257906865748595,
+            "precision": 0.6073446327683616,
+            "recall": 0.4240631163708087
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(15)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.697029702970297,
+            "auc_prc": 0.7253186098799603,
+            "auditor_fn_violation": 0.059955995599559955,
+            "auditor_fp_violation": 0.07312448636167965,
+            "ave_precision_score": 0.7260071334632764,
+            "fpr": 0.1297029702970297,
+            "logloss": 1.0358126743863216,
+            "mae": 0.31209866096740885,
+            "precision": 0.7152173913043478,
+            "recall": 0.6527777777777778
+        },
+        "train": {
+            "accuracy": 0.7168316831683168,
+            "auc_prc": 0.7561720518657213,
+            "auditor_fn_violation": 0.06508485168043433,
+            "auditor_fp_violation": 0.06582091608763263,
+            "ave_precision_score": 0.7569945947734606,
+            "fpr": 0.11782178217821782,
+            "logloss": 0.9431443978524419,
+            "mae": 0.2898624770714497,
+            "precision": 0.7407407407407407,
+            "recall": 0.6706114398422091
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(16)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.499009900990099,
+            "auc_prc": 0.750814596141858,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.506559438424573,
+            "fpr": 0.500990099009901,
+            "logloss": 16.884899016270406,
+            "mae": 0.5009666568571979,
+            "precision": 0.499009900990099,
+            "recall": 1.0
+        },
+        "train": {
+            "accuracy": 0.501980198019802,
+            "auc_prc": 0.7501477272001398,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.5080972797435103,
+            "fpr": 0.498019801980198,
+            "logloss": 16.775552701966543,
+            "mae": 0.4980147481554806,
+            "precision": 0.501980198019802,
+            "recall": 1.0
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(17)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.7772277227722773,
+            "auc_prc": 0.8448239051006652,
+            "auditor_fn_violation": 0.011922442244224424,
+            "auditor_fp_violation": 0.0532227135757054,
+            "ave_precision_score": 0.7277008526152332,
+            "fpr": 0.1900990099009901,
+            "logloss": 5.785103774475315,
+            "mae": 0.22325986471201797,
+            "precision": 0.7104072398190046,
+            "recall": 0.9345238095238095
+        },
+        "train": {
+            "accuracy": 0.7881188118811882,
+            "auc_prc": 0.8459257821878868,
+            "auditor_fn_violation": 0.012490479817212493,
+            "auditor_fp_violation": 0.05402436863964726,
+            "ave_precision_score": 0.7309618308131135,
+            "fpr": 0.17524752475247524,
+            "logloss": 5.8013130096133425,
+            "mae": 0.2163858377753668,
+            "precision": 0.7264296754250387,
+            "recall": 0.9270216962524654
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(18)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.6178217821782178,
+            "auc_prc": 0.7507277025400079,
+            "auditor_fn_violation": 0.008457095709570988,
+            "auditor_fp_violation": 0.008447149062732362,
+            "ave_precision_score": 0.7400802368524383,
+            "fpr": 0.028712871287128714,
+            "logloss": 2.5110055023466966,
+            "mae": 0.38918029994118086,
+            "precision": 0.8352272727272727,
+            "recall": 0.2916666666666667
+        },
+        "train": {
+            "accuracy": 0.6534653465346535,
+            "auc_prc": 0.8077265875515777,
+            "auditor_fn_violation": 0.019917198820473776,
+            "auditor_fp_violation": 0.0047910556463201,
+            "ave_precision_score": 0.7959639599857737,
+            "fpr": 0.015841584158415842,
+            "logloss": 2.4151327147246775,
+            "mae": 0.35640644741512223,
+            "precision": 0.9153439153439153,
+            "recall": 0.34122287968441817
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(19)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.499009900990099,
+            "auc_prc": 0.7495049504950495,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.499009900990099,
+            "fpr": 0.500990099009901,
+            "logloss": 17.303985596162857,
+            "mae": 0.500990099009901,
+            "precision": 0.499009900990099,
+            "recall": 1.0
+        },
+        "train": {
+            "accuracy": 0.501980198019802,
+            "auc_prc": 0.750990099009901,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.501980198019802,
+            "fpr": 0.498019801980198,
+            "logloss": 17.201392796185605,
+            "mae": 0.498019801980198,
+            "precision": 0.501980198019802,
+            "recall": 1.0
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(20)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.5376237623762377,
+            "auc_prc": 0.7479824223539944,
+            "auditor_fn_violation": 0.011881188118811899,
+            "auditor_fp_violation": 0.008071459319845027,
+            "ave_precision_score": 0.7375588136882957,
+            "fpr": 0.01881188118811881,
+            "logloss": 5.470444395681071,
+            "mae": 0.45985917662099896,
+            "precision": 0.7466666666666667,
+            "recall": 0.1111111111111111
+        },
+        "train": {
+            "accuracy": 0.5524752475247525,
+            "auc_prc": 0.784147652233043,
+            "auditor_fn_violation": 0.007579041927861431,
+            "auditor_fp_violation": 0.0028462886050036416,
+            "ave_precision_score": 0.7735020294084138,
+            "fpr": 0.01485148514851485,
+            "logloss": 5.148937452369585,
+            "mae": 0.44468889348000096,
+            "precision": 0.8235294117647058,
+            "recall": 0.13806706114398423
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(21)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.501980198019802,
+            "auc_prc": 0.7728236599007968,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0014499276014558007,
+            "ave_precision_score": 0.6685816715629583,
+            "fpr": 0.498019801980198,
+            "logloss": 9.31890998171082,
+            "mae": 0.49714403423448417,
+            "precision": 0.5004965243296922,
+            "recall": 1.0
+        },
+        "train": {
+            "accuracy": 0.5089108910891089,
+            "auc_prc": 0.7798147071486798,
+            "auditor_fn_violation": 0.00044720448376198575,
+            "auditor_fp_violation": 0.0036060862547487313,
+            "ave_precision_score": 0.6800010980154634,
+            "fpr": 0.4900990099009901,
+            "logloss": 8.863173732908757,
+            "mae": 0.4908367834611805,
+            "precision": 0.5054945054945055,
+            "recall": 0.9980276134122288
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(22)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.598019801980198,
+            "auc_prc": 0.7767140998954594,
+            "auditor_fn_violation": 0.012395882445387411,
+            "auditor_fp_violation": 0.002549602786365593,
+            "ave_precision_score": 0.7622832084620937,
+            "fpr": 0.016831683168316833,
+            "logloss": 13.883917633158466,
+            "mae": 0.401980198019802,
+            "precision": 0.8712121212121212,
+            "recall": 0.22817460317460317
+        },
+        "train": {
+            "accuracy": 0.5910891089108911,
+            "auc_prc": 0.7985484857279381,
+            "auditor_fn_violation": 0.0052805280528053075,
+            "auditor_fp_violation": 0.0025411885124894205,
+            "ave_precision_score": 0.7897873914433448,
+            "fpr": 0.009900990099009901,
+            "logloss": 14.123289749576648,
+            "mae": 0.4089108910891089,
+            "precision": 0.9122807017543859,
+            "recall": 0.20512820512820512
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(23)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.6237623762376238,
+            "auc_prc": 0.688766797268485,
+            "auditor_fn_violation": 0.04754832626119755,
+            "auditor_fp_violation": 0.03279849724102845,
+            "ave_precision_score": 0.6282530087928466,
+            "fpr": 0.15742574257425743,
+            "logloss": 9.301213143039167,
+            "mae": 0.37430199268197933,
+            "precision": 0.6402714932126696,
+            "recall": 0.5615079365079365
+        },
+        "train": {
+            "accuracy": 0.6158415841584158,
+            "auc_prc": 0.6994520602729964,
+            "auditor_fn_violation": 0.043665905052043666,
+            "auditor_fp_violation": 0.04563116351396572,
+            "ave_precision_score": 0.6442419870494088,
+            "fpr": 0.13960396039603962,
+            "logloss": 9.458654673440128,
+            "mae": 0.3807182765820651,
+            "precision": 0.6483790523690773,
+            "recall": 0.5128205128205128
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(24)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.5742574257425742,
+            "auc_prc": 0.7456138154092846,
+            "auditor_fn_violation": 0.02748703441772749,
+            "auditor_fp_violation": 0.0037021093413689226,
+            "ave_precision_score": 0.7414959533706013,
+            "fpr": 0.32673267326732675,
+            "logloss": 4.239965360068996,
+            "mae": 0.42659968022557526,
+            "precision": 0.5504087193460491,
+            "recall": 0.8015873015873016
+        },
+        "train": {
+            "accuracy": 0.602970297029703,
+            "auc_prc": 0.7583920818072827,
+            "auditor_fn_violation": 0.016609057355439688,
+            "auditor_fp_violation": 0.015237289136468324,
+            "ave_precision_score": 0.7561983873872982,
+            "fpr": 0.30495049504950494,
+            "logloss": 3.9148220601083636,
+            "mae": 0.39608222284690325,
+            "precision": 0.5734072022160664,
+            "recall": 0.8165680473372781
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(25)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.5148514851485149,
+            "auc_prc": 0.724033821977308,
+            "auditor_fn_violation": 0.00569110482476819,
+            "auditor_fp_violation": 0.004163894650334604,
+            "ave_precision_score": 0.5338703600210291,
+            "fpr": 0.4603960396039604,
+            "logloss": 13.527599773788385,
+            "mae": 0.48241553614477684,
+            "precision": 0.5074152542372882,
+            "recall": 0.9503968253968254
+        },
+        "train": {
+            "accuracy": 0.5138613861386139,
+            "auc_prc": 0.7317038129318152,
+            "auditor_fn_violation": 0.0007791903450700106,
+            "auditor_fp_violation": 0.006035076668700676,
+            "ave_precision_score": 0.5494911880365205,
+            "fpr": 0.45742574257425744,
+            "logloss": 13.229300122312681,
+            "mae": 0.4859966604735047,
+            "precision": 0.5085106382978724,
+            "recall": 0.9428007889546351
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(26)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.5306930693069307,
+            "auc_prc": 0.7117952583555025,
+            "auditor_fn_violation": 0.007991513437057991,
+            "auditor_fp_violation": 0.004193245411497673,
+            "ave_precision_score": 0.7008007197586997,
+            "fpr": 0.35346534653465345,
+            "logloss": 8.187267538249252,
+            "mae": 0.4669908651264448,
+            "precision": 0.5201612903225806,
+            "recall": 0.7678571428571429
+        },
+        "train": {
+            "accuracy": 0.5346534653465347,
+            "auc_prc": 0.7504336104611837,
+            "auditor_fn_violation": 0.0073505575409611975,
+            "auditor_fp_violation": 0.017760762159714973,
+            "ave_precision_score": 0.7432350910838095,
+            "fpr": 0.33861386138613864,
+            "logloss": 8.047176452321272,
+            "mae": 0.4613274806145397,
+            "precision": 0.5256588072122053,
+            "recall": 0.747534516765286
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(27)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.5267326732673268,
+            "auc_prc": 0.7042838906876236,
+            "auditor_fn_violation": 0.005355178374980363,
+            "auditor_fp_violation": 0.005827104449575393,
+            "ave_precision_score": 0.6813559009916889,
+            "fpr": 0.01485148514851485,
+            "logloss": 16.346086248246298,
+            "mae": 0.47326732673267324,
+            "precision": 0.7321428571428571,
+            "recall": 0.08134920634920635
+        },
+        "train": {
+            "accuracy": 0.5386138613861386,
+            "auc_prc": 0.7321937080213856,
+            "auditor_fn_violation": 0.003058175640049208,
+            "auditor_fp_violation": 0.0036415172332342582,
+            "ave_precision_score": 0.7065646317749048,
+            "fpr": 0.013861386138613862,
+            "logloss": 15.93572375682416,
+            "mae": 0.4613861386138614,
+            "precision": 0.7971014492753623,
+            "recall": 0.10848126232741617
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(28)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.5445544554455446,
+            "auc_prc": 0.7689090747133779,
+            "auditor_fn_violation": 0.0031746031746031746,
+            "auditor_fp_violation": 0.005455328141509824,
+            "ave_precision_score": 0.5584225499438414,
+            "fpr": 0.44752475247524753,
+            "logloss": 13.783525646220104,
+            "mae": 0.4559016147544746,
+            "precision": 0.5232067510548524,
+            "recall": 0.9841269841269841
+        },
+        "train": {
+            "accuracy": 0.5415841584158416,
+            "auc_prc": 0.7804984833800931,
+            "auditor_fn_violation": 0.0024957525338332653,
+            "auditor_fp_violation": 0.006867704663110468,
+            "ave_precision_score": 0.5793287665924841,
+            "fpr": 0.4524752475247525,
+            "logloss": 13.167224958571891,
+            "mae": 0.4608220475112013,
+            "precision": 0.5229645093945721,
+            "recall": 0.9881656804733728
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(29)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.499009900990099,
+            "auc_prc": 0.7652902396735618,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.5334245346498468,
+            "fpr": 0.500990099009901,
+            "logloss": 15.999625088485905,
+            "mae": 0.5009894673777099,
+            "precision": 0.499009900990099,
+            "recall": 1.0
+        },
+        "train": {
+            "accuracy": 0.501980198019802,
+            "auc_prc": 0.7591249955290431,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.5324411819000443,
+            "fpr": 0.498019801980198,
+            "logloss": 15.824781407114893,
+            "mae": 0.49799875150812734,
+            "precision": 0.501980198019802,
+            "recall": 1.0
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(30)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.5267326732673268,
+            "auc_prc": 0.7387364482967073,
+            "auditor_fn_violation": 0.014002828854314003,
+            "auditor_fp_violation": 0.014577544710992851,
+            "ave_precision_score": 0.7053662954155815,
+            "fpr": 0.3782178217821782,
+            "logloss": 8.603098504768033,
+            "mae": 0.47365929060455647,
+            "precision": 0.5164556962025316,
+            "recall": 0.8095238095238095
+        },
+        "train": {
+            "accuracy": 0.5554455445544555,
+            "auc_prc": 0.767235049054638,
+            "auditor_fn_violation": 0.008586716659831668,
+            "auditor_fp_violation": 0.01693403932838612,
+            "ave_precision_score": 0.7444300745555348,
+            "fpr": 0.3564356435643564,
+            "logloss": 7.695305143268763,
+            "mae": 0.44341212274360275,
+            "precision": 0.5372750642673522,
+            "recall": 0.8244575936883629
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(31)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.499009900990099,
+            "auc_prc": 0.7495049504950495,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.499009900990099,
+            "fpr": 0.500990099009901,
+            "logloss": 17.303985596162857,
+            "mae": 0.500990099009901,
+            "precision": 0.499009900990099,
+            "recall": 1.0
+        },
+        "train": {
+            "accuracy": 0.501980198019802,
+            "auc_prc": 0.750990099009901,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.501980198019802,
+            "fpr": 0.498019801980198,
+            "logloss": 17.201392796185605,
+            "mae": 0.498019801980198,
+            "precision": 0.501980198019802,
+            "recall": 1.0
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(32)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.499009900990099,
+            "auc_prc": 0.7495049504950495,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.499009900990099,
+            "fpr": 0.500990099009901,
+            "logloss": 17.303985596162857,
+            "mae": 0.500990099009901,
+            "precision": 0.499009900990099,
+            "recall": 1.0
+        },
+        "train": {
+            "accuracy": 0.501980198019802,
+            "auc_prc": 0.750990099009901,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.501980198019802,
+            "fpr": 0.498019801980198,
+            "logloss": 17.201392796185605,
+            "mae": 0.498019801980198,
+            "precision": 0.501980198019802,
+            "recall": 1.0
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(33)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.6881188118811881,
+            "auc_prc": 0.7184960723017418,
+            "auditor_fn_violation": 0.07015362250510766,
+            "auditor_fp_violation": 0.06689234140805386,
+            "ave_precision_score": 0.7193097039973484,
+            "fpr": 0.11683168316831684,
+            "logloss": 1.1299715739530711,
+            "mae": 0.32192130502801436,
+            "precision": 0.7223529411764706,
+            "recall": 0.6091269841269841
+        },
+        "train": {
+            "accuracy": 0.692079207920792,
+            "auc_prc": 0.7492387271469841,
+            "auditor_fn_violation": 0.06909602202823834,
+            "auditor_fp_violation": 0.06573233864141882,
+            "ave_precision_score": 0.749830431592635,
+            "fpr": 0.11683168316831684,
+            "logloss": 1.174361240415172,
+            "mae": 0.3119924075146407,
+            "precision": 0.7268518518518519,
+            "recall": 0.6193293885601578
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(34)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.500990099009901,
+            "auc_prc": 0,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0,
+            "fpr": 0.0,
+            "logloss": 17.235191389143548,
+            "mae": 0.499009900990099,
+            "precision": 0,
+            "recall": 0
+        },
+        "train": {
+            "accuracy": 0.498019801980198,
+            "auc_prc": 0,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0,
+            "fpr": 0.0,
+            "logloss": 17.337781814078927,
+            "mae": 0.501980198019802,
+            "precision": 0,
+            "recall": 0
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(35)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.5277227722772277,
+            "auc_prc": 0.7998962667704952,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.01248385708136031,
+            "ave_precision_score": 0.6177386212508958,
+            "fpr": 0.47227722772277225,
+            "logloss": 12.327012975863992,
+            "mae": 0.472530627885758,
+            "precision": 0.5137614678899083,
+            "recall": 1.0
+        },
+        "train": {
+            "accuracy": 0.5306930693069307,
+            "auc_prc": 0.8108794705798322,
+            "auditor_fn_violation": 0.0008260589372546723,
+            "auditor_fp_violation": 0.013404720193689365,
+            "ave_precision_score": 0.6431771773464376,
+            "fpr": 0.46831683168316834,
+            "logloss": 11.385068597241126,
+            "mae": 0.47059070911021594,
+            "precision": 0.5168539325842697,
+            "recall": 0.9980276134122288
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(36)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.5148514851485149,
+            "auc_prc": 0.371502408689599,
+            "auditor_fn_violation": 0.00552805280528053,
+            "auditor_fp_violation": 0.002882244746213752,
+            "ave_precision_score": 0.5093433003697213,
+            "fpr": 0.006930693069306931,
+            "logloss": 16.1326303881315,
+            "mae": 0.4849242879081594,
+            "precision": 0.75,
+            "recall": 0.041666666666666664
+        },
+        "train": {
+            "accuracy": 0.5118811881188119,
+            "auc_prc": 0.36916975600024,
+            "auditor_fn_violation": 0.005009080789735786,
+            "auditor_fp_violation": 0.001728244395016042,
+            "ave_precision_score": 0.506668324955836,
+            "fpr": 0.005940594059405941,
+            "logloss": 16.346473525068546,
+            "mae": 0.48809838570128294,
+            "precision": 0.7692307692307693,
+            "recall": 0.03944773175542406
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(37)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.500990099009901,
+            "auc_prc": 0.7727515194659208,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.00112706922866199,
+            "ave_precision_score": 0.5577367539354192,
+            "fpr": 0.499009900990099,
+            "logloss": 14.649458051354182,
+            "mae": 0.4987782742938783,
+            "precision": 0.5,
+            "recall": 1.0
+        },
+        "train": {
+            "accuracy": 0.501980198019802,
+            "auc_prc": 0.7802583436279277,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.5733529470358025,
+            "fpr": 0.498019801980198,
+            "logloss": 14.3047659267481,
+            "mae": 0.4979695714936398,
+            "precision": 0.501980198019802,
+            "recall": 1.0
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(38)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.6534653465346535,
+            "auc_prc": 0.7542439569010446,
+            "auditor_fn_violation": 0.037914505736287914,
+            "auditor_fp_violation": 0.10021523891519588,
+            "ave_precision_score": 0.6409707657825339,
+            "fpr": 0.2613861386138614,
+            "logloss": 8.512905942921181,
+            "mae": 0.34756463187722614,
+            "precision": 0.6129032258064516,
+            "recall": 0.8293650793650794
+        },
+        "train": {
+            "accuracy": 0.6712871287128713,
+            "auc_prc": 0.7617042592588815,
+            "auditor_fn_violation": 0.042773448942527395,
+            "auditor_fp_violation": 0.10810582052241009,
+            "ave_precision_score": 0.6551326038083598,
+            "fpr": 0.23366336633663368,
+            "logloss": 8.186374190233673,
+            "mae": 0.3289721311311121,
+            "precision": 0.6352395672333848,
+            "recall": 0.8106508875739645
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(39)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.6752475247524753,
+            "auc_prc": 0.7427672875629573,
+            "auditor_fn_violation": 0.08407197862643408,
+            "auditor_fp_violation": 0.0662153171838923,
+            "ave_precision_score": 0.6513651969938932,
+            "fpr": 0.1782178217821782,
+            "logloss": 9.310201871360803,
+            "mae": 0.3268838974443133,
+            "precision": 0.664179104477612,
+            "recall": 0.7063492063492064
+        },
+        "train": {
+            "accuracy": 0.6821782178217822,
+            "auc_prc": 0.7628030065120317,
+            "auditor_fn_violation": 0.08552346358896246,
+            "auditor_fp_violation": 0.06152195736472257,
+            "ave_precision_score": 0.6822135210970461,
+            "fpr": 0.15643564356435644,
+            "logloss": 8.491198409174945,
+            "mae": 0.3156814719308794,
+            "precision": 0.6852589641434262,
+            "recall": 0.6785009861932939
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(40)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.6653465346534654,
+            "auc_prc": 0.723794372666452,
+            "auditor_fn_violation": 0.07075082508250825,
+            "auditor_fp_violation": 0.05557077446875122,
+            "ave_precision_score": 0.7251015612418487,
+            "fpr": 0.09603960396039604,
+            "logloss": 1.5271590504425978,
+            "mae": 0.3327478197822599,
+            "precision": 0.7305555555555555,
+            "recall": 0.5218253968253969
+        },
+        "train": {
+            "accuracy": 0.6702970297029703,
+            "auc_prc": 0.7282204220739111,
+            "auditor_fn_violation": 0.06848673032983774,
+            "auditor_fp_violation": 0.056217152530362385,
+            "ave_precision_score": 0.7290685278299657,
+            "fpr": 0.100990099009901,
+            "logloss": 1.5033599184285256,
+            "mae": 0.32762804562006326,
+            "precision": 0.7301587301587301,
+            "recall": 0.5443786982248521
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(41)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.596039603960396,
+            "auc_prc": 0.7721385937744605,
+            "auditor_fn_violation": 0.02546754675467548,
+            "auditor_fp_violation": 0.005251829530779165,
+            "ave_precision_score": 0.7724834735301334,
+            "fpr": 0.02178217821782178,
+            "logloss": 3.364811869729256,
+            "mae": 0.3975301282774446,
+            "precision": 0.8428571428571429,
+            "recall": 0.23412698412698413
+        },
+        "train": {
+            "accuracy": 0.6079207920792079,
+            "auc_prc": 0.8013115827687776,
+            "auditor_fn_violation": 0.035860331595289716,
+            "auditor_fp_violation": 0.004749719504753658,
+            "ave_precision_score": 0.8016549034545508,
+            "fpr": 0.011881188118811881,
+            "logloss": 3.3687868948444133,
+            "mae": 0.3931130154316763,
+            "precision": 0.9111111111111111,
+            "recall": 0.24260355029585798
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(42)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.692079207920792,
+            "auc_prc": 0.7514829926794688,
+            "auditor_fn_violation": 0.03554730473047305,
+            "auditor_fp_violation": 0.11008492153563183,
+            "ave_precision_score": 0.6570045437458009,
+            "fpr": 0.2316831683168317,
+            "logloss": 7.369886105376789,
+            "mae": 0.3064224409797624,
+            "precision": 0.6459909228441755,
+            "recall": 0.8472222222222222
+        },
+        "train": {
+            "accuracy": 0.7148514851485148,
+            "auc_prc": 0.7805385896594654,
+            "auditor_fn_violation": 0.041443552639287604,
+            "auditor_fp_violation": 0.11134972344152906,
+            "ave_precision_score": 0.6887454773211212,
+            "fpr": 0.20495049504950494,
+            "logloss": 7.008803756574612,
+            "mae": 0.28636147597365313,
+            "precision": 0.6729857819905213,
+            "recall": 0.8402366863905325
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(43)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.6544554455445545,
+            "auc_prc": 0.7553096751476874,
+            "auditor_fn_violation": 0.03646864686468647,
+            "auditor_fp_violation": 0.10077486009470513,
+            "ave_precision_score": 0.6456972307371637,
+            "fpr": 0.2623762376237624,
+            "logloss": 8.214324589871284,
+            "mae": 0.3450689845773706,
+            "precision": 0.6131386861313869,
+            "recall": 0.8333333333333334
+        },
+        "train": {
+            "accuracy": 0.6752475247524753,
+            "auc_prc": 0.7628160804665214,
+            "auditor_fn_violation": 0.04233405589079619,
+            "auditor_fp_violation": 0.10965297324961126,
+            "ave_precision_score": 0.6569592673627771,
+            "fpr": 0.23267326732673269,
+            "logloss": 8.05794551543407,
+            "mae": 0.3263348790054182,
+            "precision": 0.637904468412943,
+            "recall": 0.8165680473372781
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(44)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.499009900990099,
+            "auc_prc": 0.7697601757985706,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.5414220741703846,
+            "fpr": 0.500990099009901,
+            "logloss": 15.728084893931294,
+            "mae": 0.5009890199297725,
+            "precision": 0.499009900990099,
+            "recall": 1.0
+        },
+        "train": {
+            "accuracy": 0.501980198019802,
+            "auc_prc": 0.7675003552535592,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.5488953894789912,
+            "fpr": 0.498019801980198,
+            "logloss": 15.26479461157878,
+            "mae": 0.4979871913348094,
+            "precision": 0.501980198019802,
+            "recall": 1.0
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(45)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.595049504950495,
+            "auc_prc": 0.7777684660239808,
+            "auditor_fn_violation": 0.024579600817224583,
+            "auditor_fp_violation": 0.004390873869995692,
+            "ave_precision_score": 0.687872971416342,
+            "fpr": 0.3594059405940594,
+            "logloss": 7.41266354812985,
+            "mae": 0.40291130810325093,
+            "precision": 0.5578562728380024,
+            "recall": 0.9087301587301587
+        },
+        "train": {
+            "accuracy": 0.6217821782178218,
+            "auc_prc": 0.7907532716677828,
+            "auditor_fn_violation": 0.021448239498506067,
+            "auditor_fp_violation": 0.023386414188138513,
+            "ave_precision_score": 0.710216451600773,
+            "fpr": 0.33564356435643566,
+            "logloss": 6.497408541598907,
+            "mae": 0.37518923797532183,
+            "precision": 0.5778331257783312,
+            "recall": 0.9151873767258383
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(46)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.593069306930693,
+            "auc_prc": 0.6764438585184944,
+            "auditor_fn_violation": 0.12351092252082353,
+            "auditor_fp_violation": 0.07916878644386177,
+            "ave_precision_score": 0.6128323484157975,
+            "fpr": 0.13861386138613863,
+            "logloss": 7.165178074315745,
+            "mae": 0.4004637170452146,
+            "precision": 0.6246648793565683,
+            "recall": 0.4623015873015873
+        },
+        "train": {
+            "accuracy": 0.602970297029703,
+            "auc_prc": 0.6879087454384694,
+            "auditor_fn_violation": 0.12278790009178434,
+            "auditor_fp_violation": 0.07795996299431135,
+            "ave_precision_score": 0.623202439952793,
+            "fpr": 0.13663366336633664,
+            "logloss": 7.408985912243116,
+            "mae": 0.3890057326524329,
+            "precision": 0.6387434554973822,
+            "recall": 0.4812623274161736
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(47)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.5158415841584159,
+            "auc_prc": 0.37023702555314003,
+            "auditor_fn_violation": 0.00635706427785636,
+            "auditor_fp_violation": 0.002882244746213752,
+            "ave_precision_score": 0.5107215844304066,
+            "fpr": 0.006930693069306931,
+            "logloss": 16.116307465839952,
+            "mae": 0.48477903269814737,
+            "precision": 0.7586206896551724,
+            "recall": 0.04365079365079365
+        },
+        "train": {
+            "accuracy": 0.5128712871287129,
+            "auc_prc": 0.3675468198475491,
+            "auditor_fn_violation": 0.005009080789735786,
+            "auditor_fp_violation": 0.0020805857921776276,
+            "ave_precision_score": 0.5076083550080313,
+            "fpr": 0.0049504950495049506,
+            "logloss": 16.333359965646764,
+            "mae": 0.48764315632886135,
+            "precision": 0.8,
+            "recall": 0.03944773175542406
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(48)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.5415841584158416,
+            "auc_prc": 0.7415272247146855,
+            "auditor_fn_violation": 0.0054082193933679065,
+            "auditor_fp_violation": 0.007740774077407742,
+            "ave_precision_score": 0.7310104192689171,
+            "fpr": 0.01782178217821782,
+            "logloss": 7.354595741089015,
+            "mae": 0.4575138574412695,
+            "precision": 0.7662337662337663,
+            "recall": 0.11706349206349206
+        },
+        "train": {
+            "accuracy": 0.5554455445544555,
+            "auc_prc": 0.7647985648253116,
+            "auditor_fn_violation": 0.0055597867479055775,
+            "auditor_fp_violation": 0.005533137806822432,
+            "ave_precision_score": 0.7541315009702763,
+            "fpr": 0.019801980198019802,
+            "logloss": 7.207568606347708,
+            "mae": 0.4438312857597153,
+            "precision": 0.7959183673469388,
+            "recall": 0.15384615384615385
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(49)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.6653465346534654,
+            "auc_prc": 0.7785721588755738,
+            "auditor_fn_violation": 0.031247053276756247,
+            "auditor_fp_violation": 0.10073181231166595,
+            "ave_precision_score": 0.6378730359477099,
+            "fpr": 0.2693069306930693,
+            "logloss": 9.847416159608388,
+            "mae": 0.33320863296708125,
+            "precision": 0.6169014084507042,
+            "recall": 0.8690476190476191
+        },
+        "train": {
+            "accuracy": 0.6742574257425743,
+            "auc_prc": 0.7870621828764982,
+            "auditor_fn_violation": 0.040931903841271704,
+            "auditor_fp_violation": 0.11049347479479558,
+            "ave_precision_score": 0.6539312200139309,
+            "fpr": 0.24653465346534653,
+            "logloss": 9.377799249459276,
+            "mae": 0.32572952077890865,
+            "precision": 0.6316568047337278,
+            "recall": 0.8422090729783037
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(50)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.5188118811881188,
+            "auc_prc": 0.6592472650671288,
+            "auditor_fn_violation": 0.007755775577557774,
+            "auditor_fp_violation": 0.0010742378585684657,
+            "ave_precision_score": 0.656576446193498,
+            "fpr": 0.0029702970297029703,
+            "logloss": 9.832152915233026,
+            "mae": 0.4766560316545934,
+            "precision": 0.875,
+            "recall": 0.041666666666666664
+        },
+        "train": {
+            "accuracy": 0.5168316831683168,
+            "auc_prc": 0.6597843747253715,
+            "auditor_fn_violation": 0.006876013045091511,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.6559149012034061,
+            "fpr": 0.0,
+            "logloss": 10.538509156906745,
+            "mae": 0.48248807685453177,
+            "precision": 1.0,
+            "recall": 0.03747534516765286
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(51)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.5762376237623762,
+            "auc_prc": 0.7820045756717533,
+            "auditor_fn_violation": 0.011971554298286974,
+            "auditor_fp_violation": 0.010785426368723835,
+            "ave_precision_score": 0.6780262641240199,
+            "fpr": 0.401980198019802,
+            "logloss": 9.168753486085809,
+            "mae": 0.4225641386502562,
+            "precision": 0.5427927927927928,
+            "recall": 0.9563492063492064
+        },
+        "train": {
+            "accuracy": 0.599009900990099,
+            "auc_prc": 0.8003115999669472,
+            "auditor_fn_violation": 0.010076747319702387,
+            "auditor_fp_violation": 0.02327027931421375,
+            "ave_precision_score": 0.7078762255126294,
+            "fpr": 0.3831683168316832,
+            "logloss": 8.29459139484606,
+            "mae": 0.3998000654213297,
+            "precision": 0.5582191780821918,
+            "recall": 0.9644970414201184
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(52)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.7,
+            "auc_prc": 0.7377171201713129,
+            "auditor_fn_violation": 0.05328854314002831,
+            "auditor_fp_violation": 0.05906547176456777,
+            "ave_precision_score": 0.7383022959035149,
+            "fpr": 0.11188118811881188,
+            "logloss": 1.6097356041495283,
+            "mae": 0.30083743191675616,
+            "precision": 0.7353629976580797,
+            "recall": 0.623015873015873
+        },
+        "train": {
+            "accuracy": 0.7148514851485148,
+            "auc_prc": 0.7657634045249874,
+            "auditor_fn_violation": 0.06480754584334172,
+            "auditor_fp_violation": 0.05945121351101313,
+            "ave_precision_score": 0.7654830094842628,
+            "fpr": 0.11287128712871287,
+            "logloss": 1.551619645956904,
+            "mae": 0.29183964998899714,
+            "precision": 0.7449664429530202,
+            "recall": 0.6568047337278107
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(53)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.505940594059406,
+            "auc_prc": 0.5469389901174991,
+            "auditor_fn_violation": 0.023457881502435957,
+            "auditor_fp_violation": 0.04393221930888741,
+            "ave_precision_score": 0.5017263047499895,
+            "fpr": 0.07326732673267326,
+            "logloss": 17.064265931950757,
+            "mae": 0.49405940594059405,
+            "precision": 0.5163398692810458,
+            "recall": 0.15674603174603174
+        },
+        "train": {
+            "accuracy": 0.5069306930693069,
+            "auc_prc": 0.5560862436825977,
+            "auditor_fn_violation": 0.005825375436951991,
+            "auditor_fp_violation": 0.038814636930889906,
+            "ave_precision_score": 0.5063482935939168,
+            "fpr": 0.07326732673267326,
+            "logloss": 17.030069123638963,
+            "mae": 0.49306930693069306,
+            "precision": 0.5286624203821656,
+            "recall": 0.16370808678500987
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(54)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.47326732673267324,
+            "auc_prc": 0.6053781029185578,
+            "auditor_fn_violation": 0.03858046518937609,
+            "auditor_fp_violation": 0.005560990881696871,
+            "ave_precision_score": 0.4534831860527568,
+            "fpr": 0.3910891089108911,
+            "logloss": 13.094000461316472,
+            "mae": 0.5210589123925702,
+            "precision": 0.4816272965879265,
+            "recall": 0.7281746031746031
+        },
+        "train": {
+            "accuracy": 0.4891089108910891,
+            "auc_prc": 0.6180243111462926,
+            "auditor_fn_violation": 0.03471400394477318,
+            "auditor_fp_violation": 0.02653780288565636,
+            "ave_precision_score": 0.4577166129309683,
+            "fpr": 0.401980198019802,
+            "logloss": 13.559155599318702,
+            "mae": 0.5112720738127992,
+            "precision": 0.4943960149439601,
+            "recall": 0.7830374753451677
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(55)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.5346534653465347,
+            "auc_prc": 0.8015605457964511,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.015708527374476585,
+            "ave_precision_score": 0.6316876804307083,
+            "fpr": 0.46534653465346537,
+            "logloss": 11.54014515405747,
+            "mae": 0.4656570455820577,
+            "precision": 0.5174537987679672,
+            "recall": 1.0
+        },
+        "train": {
+            "accuracy": 0.5346534653465347,
+            "auc_prc": 0.8166532159076711,
+            "auditor_fn_violation": 0.0008260589372546723,
+            "auditor_fp_violation": 0.014857390311595796,
+            "ave_precision_score": 0.6611386984399525,
+            "fpr": 0.4643564356435644,
+            "logloss": 10.595551257546575,
+            "mae": 0.4639672277442064,
+            "precision": 0.518974358974359,
+            "recall": 0.9980276134122288
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(56)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.599009900990099,
+            "auc_prc": 0.7953460131116646,
+            "auditor_fn_violation": 0.012395882445387411,
+            "auditor_fp_violation": 0.0011896841858098856,
+            "ave_precision_score": 0.7832116748530739,
+            "fpr": 0.015841584158415842,
+            "logloss": 7.071400184900793,
+            "mae": 0.40107657667169067,
+            "precision": 0.8778625954198473,
+            "recall": 0.22817460317460317
+        },
+        "train": {
+            "accuracy": 0.5900990099009901,
+            "auc_prc": 0.8315606730631228,
+            "auditor_fn_violation": 0.0052805280528053075,
+            "auditor_fp_violation": 0.002080585792177628,
+            "ave_precision_score": 0.8244396150883403,
+            "fpr": 0.01089108910891089,
+            "logloss": 7.076050841273221,
+            "mae": 0.409859730196601,
+            "precision": 0.9043478260869565,
+            "recall": 0.20512820512820512
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(57)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.7099009900990099,
+            "auc_prc": 0.7627237439851088,
+            "auditor_fn_violation": 0.05397807637906648,
+            "auditor_fp_violation": 0.043047783039173476,
+            "ave_precision_score": 0.7629386426558638,
+            "fpr": 0.08514851485148515,
+            "logloss": 1.5311022253345428,
+            "mae": 0.29992994363526393,
+            "precision": 0.7754569190600522,
+            "recall": 0.5892857142857143
+        },
+        "train": {
+            "accuracy": 0.7198019801980198,
+            "auc_prc": 0.7914677893713652,
+            "auditor_fn_violation": 0.061692737321069384,
+            "auditor_fp_violation": 0.04886325610692282,
+            "ave_precision_score": 0.7917994399859808,
+            "fpr": 0.0891089108910891,
+            "logloss": 1.4284707100394767,
+            "mae": 0.2849448840682797,
+            "precision": 0.7772277227722773,
+            "recall": 0.6193293885601578
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(58)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.5386138613861386,
+            "auc_prc": 0.7007502246470373,
+            "auditor_fn_violation": 0.013786735816438809,
+            "auditor_fp_violation": 0.0028333268109419648,
+            "ave_precision_score": 0.6996778371986777,
+            "fpr": 0.011881188118811881,
+            "logloss": 8.421120206766137,
+            "mae": 0.4583934538935682,
+            "precision": 0.8064516129032258,
+            "recall": 0.0992063492063492
+        },
+        "train": {
+            "accuracy": 0.5475247524752476,
+            "auc_prc": 0.7228756865794566,
+            "auditor_fn_violation": 0.019151678481457622,
+            "auditor_fp_violation": 0.002076649016790347,
+            "ave_precision_score": 0.7211392747803496,
+            "fpr": 0.00891089108910891,
+            "logloss": 8.928281927104099,
+            "mae": 0.4494555204940635,
+            "precision": 0.8676470588235294,
+            "recall": 0.11637080867850098
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(59)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.5257425742574258,
+            "auc_prc": 0.7001125553824936,
+            "auditor_fn_violation": 0.0044004400440044045,
+            "auditor_fp_violation": 0.005827104449575393,
+            "ave_precision_score": 0.6880765797760302,
+            "fpr": 0.01485148514851485,
+            "logloss": 11.86424266535144,
+            "mae": 0.47398613201475515,
+            "precision": 0.7272727272727273,
+            "recall": 0.07936507936507936
+        },
+        "train": {
+            "accuracy": 0.5386138613861386,
+            "auc_prc": 0.7333262029670986,
+            "auditor_fn_violation": 0.0020036323158943254,
+            "auditor_fp_violation": 0.003974174753459442,
+            "ave_precision_score": 0.7210684421955132,
+            "fpr": 0.01287128712871287,
+            "logloss": 11.82748952451039,
+            "mae": 0.46165492148391346,
+            "precision": 0.8059701492537313,
+            "recall": 0.10650887573964497
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(60)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.693069306930693,
+            "auc_prc": 0.7395056497801009,
+            "auditor_fn_violation": 0.05836869401225837,
+            "auditor_fp_violation": 0.05158689782021681,
+            "ave_precision_score": 0.739652790793712,
+            "fpr": 0.09702970297029703,
+            "logloss": 1.6821589525352358,
+            "mae": 0.3085204960284884,
+            "precision": 0.7487179487179487,
+            "recall": 0.5793650793650794
+        },
+        "train": {
+            "accuracy": 0.7059405940594059,
+            "auc_prc": 0.7710525537549331,
+            "auditor_fn_violation": 0.07208389478001055,
+            "auditor_fp_violation": 0.05394760151959531,
+            "ave_precision_score": 0.7714071601024869,
+            "fpr": 0.09801980198019802,
+            "logloss": 1.573299215001402,
+            "mae": 0.29724694129469165,
+            "precision": 0.7573529411764706,
+            "recall": 0.6094674556213018
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(61)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.49504950495049505,
+            "auc_prc": 0.7063936349408326,
+            "auditor_fn_violation": 0.002657944365865158,
+            "auditor_fp_violation": 0.002324580284115373,
+            "ave_precision_score": 0.4978705447862745,
+            "fpr": 0.4900990099009901,
+            "logloss": 15.72788850889558,
+            "mae": 0.5055350895712104,
+            "precision": 0.4969512195121951,
+            "recall": 0.9702380952380952
+        },
+        "train": {
+            "accuracy": 0.49504950495049505,
+            "auc_prc": 0.7017616002493465,
+            "auditor_fn_violation": 0.004183021852481107,
+            "auditor_fp_violation": 0.005241816428163693,
+            "ave_precision_score": 0.49572870926348195,
+            "fpr": 0.48118811881188117,
+            "logloss": 15.719864225070202,
+            "mae": 0.5042466578394428,
+            "precision": 0.4984520123839009,
+            "recall": 0.9526627218934911
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(62)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.598019801980198,
+            "auc_prc": 0.7761872587598171,
+            "auditor_fn_violation": 0.012395882445387411,
+            "auditor_fp_violation": 0.002549602786365593,
+            "ave_precision_score": 0.7617584359304428,
+            "fpr": 0.016831683168316833,
+            "logloss": 13.883917633158466,
+            "mae": 0.401980198019802,
+            "precision": 0.8712121212121212,
+            "recall": 0.22817460317460317
+        },
+        "train": {
+            "accuracy": 0.5910891089108911,
+            "auc_prc": 0.7977420887927817,
+            "auditor_fn_violation": 0.0052805280528053075,
+            "auditor_fp_violation": 0.0025411885124894205,
+            "ave_precision_score": 0.7889856809780549,
+            "fpr": 0.009900990099009901,
+            "logloss": 14.123289749576648,
+            "mae": 0.4089108910891089,
+            "precision": 0.9122807017543859,
+            "recall": 0.20512820512820512
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(63)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.6237623762376238,
+            "auc_prc": 0.7304579107997673,
+            "auditor_fn_violation": 0.0821782178217822,
+            "auditor_fp_violation": 0.06817203459476383,
+            "ave_precision_score": 0.6572910675878627,
+            "fpr": 0.12673267326732673,
+            "logloss": 8.358637876796916,
+            "mae": 0.3778288877140799,
+            "precision": 0.6631578947368421,
+            "recall": 0.5
+        },
+        "train": {
+            "accuracy": 0.6297029702970297,
+            "auc_prc": 0.7493789190098785,
+            "auditor_fn_violation": 0.07647587243931495,
+            "auditor_fp_violation": 0.06684644607601914,
+            "ave_precision_score": 0.6772656935308199,
+            "fpr": 0.1188118811881188,
+            "logloss": 8.14836188437098,
+            "mae": 0.3688793776453158,
+            "precision": 0.67828418230563,
+            "recall": 0.4990138067061144
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(64)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.499009900990099,
+            "auc_prc": 0.7495049504950495,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.499009900990099,
+            "fpr": 0.500990099009901,
+            "logloss": 17.303985596162857,
+            "mae": 0.500990099009901,
+            "precision": 0.499009900990099,
+            "recall": 1.0
+        },
+        "train": {
+            "accuracy": 0.501980198019802,
+            "auc_prc": 0.750990099009901,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.501980198019802,
+            "fpr": 0.498019801980198,
+            "logloss": 17.201392796185605,
+            "mae": 0.498019801980198,
+            "precision": 0.501980198019802,
+            "recall": 1.0
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(65)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.6108910891089109,
+            "auc_prc": 0.7210686810992764,
+            "auditor_fn_violation": 0.04132484677039133,
+            "auditor_fp_violation": 0.008852189566782765,
+            "ave_precision_score": 0.5928810480383808,
+            "fpr": 0.300990099009901,
+            "logloss": 10.321737283283733,
+            "mae": 0.3859717597311453,
+            "precision": 0.5771905424200278,
+            "recall": 0.8234126984126984
+        },
+        "train": {
+            "accuracy": 0.6247524752475248,
+            "auc_prc": 0.7321386681391309,
+            "auditor_fn_violation": 0.04608159040756147,
+            "auditor_fp_violation": 0.026642127433419288,
+            "ave_precision_score": 0.6182250775927509,
+            "fpr": 0.26732673267326734,
+            "logloss": 9.217221824718909,
+            "mae": 0.37024909721243504,
+            "precision": 0.5958083832335329,
+            "recall": 0.7850098619329389
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(66)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.6534653465346535,
+            "auc_prc": 0.7827713853380246,
+            "auditor_fn_violation": 0.022536539368222537,
+            "auditor_fp_violation": 0.0882166477517317,
+            "ave_precision_score": 0.6315036868505588,
+            "fpr": 0.299009900990099,
+            "logloss": 9.684381956724202,
+            "mae": 0.34384026092351105,
+            "precision": 0.6015831134564644,
+            "recall": 0.9047619047619048
+        },
+        "train": {
+            "accuracy": 0.6811881188118812,
+            "auc_prc": 0.7871318541947848,
+            "auditor_fn_violation": 0.027013884820434708,
+            "auditor_fp_violation": 0.10225380390921797,
+            "ave_precision_score": 0.6480896601835326,
+            "fpr": 0.26633663366336635,
+            "logloss": 9.070483444148646,
+            "mae": 0.31782294721924087,
+            "precision": 0.627939142461964,
+            "recall": 0.8954635108481263
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(67)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.6217821782178218,
+            "auc_prc": 0.6900221025025136,
+            "auditor_fn_violation": 0.03728783592644979,
+            "auditor_fp_violation": 0.030458263217626118,
+            "ave_precision_score": 0.6540772491649094,
+            "fpr": 0.13762376237623763,
+            "logloss": 9.01299165714623,
+            "mae": 0.37776531292261867,
+            "precision": 0.6525,
+            "recall": 0.5178571428571429
+        },
+        "train": {
+            "accuracy": 0.6059405940594059,
+            "auc_prc": 0.6770828441383017,
+            "auditor_fn_violation": 0.03040209346378425,
+            "auditor_fp_violation": 0.04815660492490602,
+            "ave_precision_score": 0.6431683409030748,
+            "fpr": 0.12475247524752475,
+            "logloss": 9.622241715007592,
+            "mae": 0.3933537447273138,
+            "precision": 0.6509695290858726,
+            "recall": 0.4635108481262327
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(68)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.499009900990099,
+            "auc_prc": 0.7495049504950495,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.499009900990099,
+            "fpr": 0.500990099009901,
+            "logloss": 17.303985596162857,
+            "mae": 0.500990099009901,
+            "precision": 0.499009900990099,
+            "recall": 1.0
+        },
+        "train": {
+            "accuracy": 0.501980198019802,
+            "auc_prc": 0.750990099009901,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.501980198019802,
+            "fpr": 0.498019801980198,
+            "logloss": 17.201392796185605,
+            "mae": 0.498019801980198,
+            "precision": 0.501980198019802,
+            "recall": 1.0
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(69)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.48514851485148514,
+            "auc_prc": 0.516296228263661,
+            "auditor_fn_violation": 0.02127927078422128,
+            "auditor_fp_violation": 0.0010898915978554467,
+            "ave_precision_score": 0.43330619711781077,
+            "fpr": 0.3891089108910891,
+            "logloss": 10.549399575974913,
+            "mae": 0.5240885758624003,
+            "precision": 0.4896103896103896,
+            "recall": 0.748015873015873
+        },
+        "train": {
+            "accuracy": 0.4792079207920792,
+            "auc_prc": 0.5217225549942124,
+            "auditor_fn_violation": 0.02796297381217412,
+            "auditor_fp_violation": 0.03818278448123144,
+            "ave_precision_score": 0.42806407568524274,
+            "fpr": 0.38712871287128714,
+            "logloss": 11.793616951421571,
+            "mae": 0.5273833316617769,
+            "precision": 0.4875491480996068,
+            "recall": 0.7337278106508875
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(70)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.500990099009901,
+            "auc_prc": 0.5689507765680567,
+            "auditor_fn_violation": 0.004027188433129032,
+            "auditor_fp_violation": 0.012018158337572887,
+            "ave_precision_score": 0.5466646166152391,
+            "fpr": 0.04950495049504951,
+            "logloss": 15.189065104998887,
+            "mae": 0.49875421219084765,
+            "precision": 0.5,
+            "recall": 0.0992063492063492
+        },
+        "train": {
+            "accuracy": 0.5158415841584159,
+            "auc_prc": 0.600228235928538,
+            "auditor_fn_violation": 0.007006854531607012,
+            "auditor_fp_violation": 0.006842115623093127,
+            "ave_precision_score": 0.5746578694240301,
+            "fpr": 0.046534653465346534,
+            "logloss": 14.907897571019253,
+            "mae": 0.4841459039622131,
+            "precision": 0.5803571428571429,
+            "recall": 0.1282051282051282
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(71)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.5445544554455446,
+            "auc_prc": 0.7153975757585175,
+            "auditor_fn_violation": 0.009712399811409722,
+            "auditor_fp_violation": 0.0048996203968222985,
+            "ave_precision_score": 0.7149384928970726,
+            "fpr": 0.33663366336633666,
+            "logloss": 5.953725591286162,
+            "mae": 0.4562252127357142,
+            "precision": 0.5303867403314917,
+            "recall": 0.7619047619047619
+        },
+        "train": {
+            "accuracy": 0.5534653465346535,
+            "auc_prc": 0.7594847136587113,
+            "auditor_fn_violation": 0.009680317144140452,
+            "auditor_fp_violation": 0.02002440800740115,
+            "ave_precision_score": 0.7582963015847869,
+            "fpr": 0.31485148514851485,
+            "logloss": 5.827109205869693,
+            "mae": 0.4473616140557517,
+            "precision": 0.5404624277456648,
+            "recall": 0.73767258382643
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(72)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.5574257425742575,
+            "auc_prc": 0.69640490147906,
+            "auditor_fn_violation": 0.049616925978312125,
+            "auditor_fp_violation": 0.020921222557038315,
+            "ave_precision_score": 0.6973809449427678,
+            "fpr": 0.03564356435643564,
+            "logloss": 2.1531441163484426,
+            "mae": 0.43638428046485334,
+            "precision": 0.7209302325581395,
+            "recall": 0.18452380952380953
+        },
+        "train": {
+            "accuracy": 0.5623762376237624,
+            "auc_prc": 0.7302552421492468,
+            "auditor_fn_violation": 0.047764954010193934,
+            "auditor_fp_violation": 0.015487274373560619,
+            "ave_precision_score": 0.7314740288580908,
+            "fpr": 0.027722772277227723,
+            "logloss": 2.1200381645930766,
+            "mae": 0.4277459768242681,
+            "precision": 0.768595041322314,
+            "recall": 0.1834319526627219
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(73)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.5871287128712871,
+            "auc_prc": 0.7775265532865749,
+            "auditor_fn_violation": 0.019915920163444917,
+            "auditor_fp_violation": 0.019273666497084504,
+            "ave_precision_score": 0.6691824993672925,
+            "fpr": 0.37623762376237624,
+            "logloss": 8.260503468689228,
+            "mae": 0.41170734027001477,
+            "precision": 0.551357733175915,
+            "recall": 0.9265873015873016
+        },
+        "train": {
+            "accuracy": 0.6089108910891089,
+            "auc_prc": 0.7887239784149963,
+            "auditor_fn_violation": 0.017634307809479177,
+            "auditor_fp_violation": 0.020782237269452598,
+            "ave_precision_score": 0.6904324729636898,
+            "fpr": 0.35544554455445543,
+            "logloss": 7.3208930804052486,
+            "mae": 0.3880575681930346,
+            "precision": 0.5674698795180723,
+            "recall": 0.9289940828402367
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(74)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.6237623762376238,
+            "auc_prc": 0.7815167637339695,
+            "auditor_fn_violation": 0.008368694012258378,
+            "auditor_fp_violation": 0.006243885258091027,
+            "ave_precision_score": 0.7686647593357979,
+            "fpr": 0.016831683168316833,
+            "logloss": 12.632336941356074,
+            "mae": 0.37653443584847057,
+            "precision": 0.8924050632911392,
+            "recall": 0.27976190476190477
+        },
+        "train": {
+            "accuracy": 0.6207920792079208,
+            "auc_prc": 0.8121493272565845,
+            "auditor_fn_violation": 0.001954810865701962,
+            "auditor_fp_violation": 0.0030529693128358566,
+            "ave_precision_score": 0.8000572877205182,
+            "fpr": 0.01485148514851485,
+            "logloss": 12.726466416323142,
+            "mae": 0.3791673218767658,
+            "precision": 0.9025974025974026,
+            "recall": 0.27416173570019725
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(75)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.7049504950495049,
+            "auc_prc": 0.791380056233921,
+            "auditor_fn_violation": 0.030359107339305358,
+            "auditor_fp_violation": 0.02102884201463625,
+            "ave_precision_score": 0.7909547312550602,
+            "fpr": 0.09801980198019802,
+            "logloss": 1.269402206799081,
+            "mae": 0.31478621306059124,
+            "precision": 0.754950495049505,
+            "recall": 0.6051587301587301
+        },
+        "train": {
+            "accuracy": 0.7514851485148515,
+            "auc_prc": 0.8365705864615824,
+            "auditor_fn_violation": 0.02911906575272913,
+            "auditor_fp_violation": 0.010564336751766627,
+            "ave_precision_score": 0.836193784026535,
+            "fpr": 0.06831683168316832,
+            "logloss": 1.0934919063450734,
+            "mae": 0.27948780560940845,
+            "precision": 0.8248730964467005,
+            "recall": 0.6410256410256411
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(76)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.499009900990099,
+            "auc_prc": 0.7497581733988691,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.5014975005646062,
+            "fpr": 0.500990099009901,
+            "logloss": 17.114347652187007,
+            "mae": 0.5006400874345609,
+            "precision": 0.499009900990099,
+            "recall": 1.0
+        },
+        "train": {
+            "accuracy": 0.501980198019802,
+            "auc_prc": 0.7502951384729218,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.5045084432329365,
+            "fpr": 0.498019801980198,
+            "logloss": 16.984854441639104,
+            "mae": 0.49801307202565787,
+            "precision": 0.501980198019802,
+            "recall": 1.0
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(77)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.500990099009901,
+            "auc_prc": 0,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0,
+            "fpr": 0.0,
+            "logloss": 17.219024416009887,
+            "mae": 0.49900990097788017,
+            "precision": 0,
+            "recall": 0
+        },
+        "train": {
+            "accuracy": 0.498019801980198,
+            "auc_prc": 0,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0,
+            "fpr": 0.0,
+            "logloss": 17.281590381821157,
+            "mae": 0.501692445975207,
+            "precision": 0,
+            "recall": 0
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(78)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.694059405940594,
+            "auc_prc": 0.7638392138140897,
+            "auditor_fn_violation": 0.055736287914505744,
+            "auditor_fp_violation": 0.042222048291785705,
+            "ave_precision_score": 0.7644811770607329,
+            "fpr": 0.08118811881188119,
+            "logloss": 1.55060972816947,
+            "mae": 0.30357797231863803,
+            "precision": 0.7715877437325905,
+            "recall": 0.5496031746031746
+        },
+        "train": {
+            "accuracy": 0.7207920792079208,
+            "auc_prc": 0.7954689019174698,
+            "auditor_fn_violation": 0.061880211689808035,
+            "auditor_fp_violation": 0.04239513414562133,
+            "ave_precision_score": 0.7958213044952355,
+            "fpr": 0.07821782178217822,
+            "logloss": 1.4488639916067287,
+            "mae": 0.28846051328893557,
+            "precision": 0.793733681462141,
+            "recall": 0.5996055226824457
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(79)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.6475247524752475,
+            "auc_prc": 0.7265511811676679,
+            "auditor_fn_violation": 0.03715228665723716,
+            "auditor_fp_violation": 0.0284115368058545,
+            "ave_precision_score": 0.6503459111630534,
+            "fpr": 0.2396039603960396,
+            "logloss": 7.713460605711218,
+            "mae": 0.35434814282453353,
+            "precision": 0.6170886075949367,
+            "recall": 0.7738095238095238
+        },
+        "train": {
+            "accuracy": 0.6702970297029703,
+            "auc_prc": 0.7377475555949583,
+            "auditor_fn_violation": 0.0430409904895815,
+            "auditor_fp_violation": 0.0382595516012834,
+            "ave_precision_score": 0.6659092299868387,
+            "fpr": 0.2,
+            "logloss": 7.318406756631137,
+            "mae": 0.329415127343004,
+            "precision": 0.6505190311418685,
+            "recall": 0.7416173570019724
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(80)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.5168316831683168,
+            "auc_prc": 0.7281679163129774,
+            "auditor_fn_violation": 0.0035891089108910893,
+            "auditor_fp_violation": 0.005062027941924637,
+            "ave_precision_score": 0.5385651690906064,
+            "fpr": 0.4623762376237624,
+            "logloss": 13.383727423261826,
+            "mae": 0.47996035463911135,
+            "precision": 0.508421052631579,
+            "recall": 0.9583333333333334
+        },
+        "train": {
+            "accuracy": 0.5148514851485149,
+            "auc_prc": 0.7440539199392209,
+            "auditor_fn_violation": 0.0010916476263010924,
+            "auditor_fp_violation": 0.006227978662677398,
+            "ave_precision_score": 0.5651473684516795,
+            "fpr": 0.4594059405940594,
+            "logloss": 12.858306331466729,
+            "mae": 0.4829638281681554,
+            "precision": 0.508994708994709,
+            "recall": 0.9487179487179487
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(81)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.5792079207920792,
+            "auc_prc": 0.7221234814833902,
+            "auditor_fn_violation": 0.026219943422913717,
+            "auditor_fp_violation": 0.014436661057410092,
+            "ave_precision_score": 0.7238760567751494,
+            "fpr": 0.031683168316831684,
+            "logloss": 2.420032379837941,
+            "mae": 0.4154669306768263,
+            "precision": 0.7762237762237763,
+            "recall": 0.22023809523809523
+        },
+        "train": {
+            "accuracy": 0.595049504950495,
+            "auc_prc": 0.7667079968730687,
+            "auditor_fn_violation": 0.037459722303591306,
+            "auditor_fp_violation": 0.01368029447079897,
+            "ave_precision_score": 0.767383426033168,
+            "fpr": 0.024752475247524754,
+            "logloss": 2.3932554589771264,
+            "mae": 0.3990194849836503,
+            "precision": 0.831081081081081,
+            "recall": 0.24260355029585798
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(82)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.5,
+            "auc_prc": 0.7497522299306244,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0009411810746292032,
+            "ave_precision_score": 0.49950445986124875,
+            "fpr": 0.5,
+            "logloss": 17.26978799617044,
+            "mae": 0.5,
+            "precision": 0.49950445986124875,
+            "recall": 1.0
+        },
+        "train": {
+            "accuracy": 0.501980198019802,
+            "auc_prc": 0.750990099009901,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.501980198019802,
+            "fpr": 0.498019801980198,
+            "logloss": 17.201392796185605,
+            "mae": 0.498019801980198,
+            "precision": 0.501980198019802,
+            "recall": 1.0
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(83)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.600990099009901,
+            "auc_prc": 0.7158604565757085,
+            "auditor_fn_violation": 0.05652993870815654,
+            "auditor_fp_violation": 0.054688294916448166,
+            "ave_precision_score": 0.655861445175175,
+            "fpr": 0.10198019801980197,
+            "logloss": 10.895392195603934,
+            "mae": 0.3979992710478858,
+            "precision": 0.6644951140065146,
+            "recall": 0.40476190476190477
+        },
+        "train": {
+            "accuracy": 0.6128712871287129,
+            "auc_prc": 0.7378312486489794,
+            "auditor_fn_violation": 0.05574237897162497,
+            "auditor_fp_violation": 0.05130799362242387,
+            "ave_precision_score": 0.6815270578462453,
+            "fpr": 0.09504950495049505,
+            "logloss": 10.477050844522457,
+            "mae": 0.3858022364615149,
+            "precision": 0.6883116883116883,
+            "recall": 0.4181459566074951
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(84)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.6,
+            "auc_prc": 0.74975160312053,
+            "auditor_fn_violation": 0.012395882445387411,
+            "auditor_fp_violation": 0.0004226509607482485,
+            "ave_precision_score": 0.5885599827978368,
+            "fpr": 0.01485148514851485,
+            "logloss": 13.784138114335134,
+            "mae": 0.3999422345421102,
+            "precision": 0.8846153846153846,
+            "recall": 0.22817460317460317
+        },
+        "train": {
+            "accuracy": 0.5910891089108911,
+            "auc_prc": 0.7582094039363451,
+            "auditor_fn_violation": 0.0052805280528053075,
+            "auditor_fp_violation": 0.0025411885124894205,
+            "ave_precision_score": 0.5861444039140756,
+            "fpr": 0.009900990099009901,
+            "logloss": 14.123289749576648,
+            "mae": 0.4089108910891089,
+            "precision": 0.9122807017543859,
+            "recall": 0.20512820512820512
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(85)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.499009900990099,
+            "auc_prc": 0.7495049504950495,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.499009900990099,
+            "fpr": 0.500990099009901,
+            "logloss": 17.303985596162857,
+            "mae": 0.500990099009901,
+            "precision": 0.499009900990099,
+            "recall": 1.0
+        },
+        "train": {
+            "accuracy": 0.501980198019802,
+            "auc_prc": 0.750990099009901,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.501980198019802,
+            "fpr": 0.498019801980198,
+            "logloss": 17.201392796185605,
+            "mae": 0.498019801980198,
+            "precision": 0.501980198019802,
+            "recall": 1.0
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(86)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.6306930693069307,
+            "auc_prc": 0.6935684443025403,
+            "auditor_fn_violation": 0.04366454502593117,
+            "auditor_fp_violation": 0.030786991742652526,
+            "ave_precision_score": 0.6701852971392812,
+            "fpr": 0.11683168316831684,
+            "logloss": 8.55257910280612,
+            "mae": 0.37197988487944084,
+            "precision": 0.6784741144414169,
+            "recall": 0.49404761904761907
+        },
+        "train": {
+            "accuracy": 0.6237623762376238,
+            "auc_prc": 0.7026247508433097,
+            "auditor_fn_violation": 0.04693303649891617,
+            "auditor_fp_violation": 0.04729248272739799,
+            "ave_precision_score": 0.6753439461173718,
+            "fpr": 0.100990099009901,
+            "logloss": 9.063980731498125,
+            "mae": 0.3773535179837764,
+            "precision": 0.6918429003021148,
+            "recall": 0.4516765285996055
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(87)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.5267326732673268,
+            "auc_prc": 0.7065072074485181,
+            "auditor_fn_violation": 0.005355178374980363,
+            "auditor_fp_violation": 0.005827104449575393,
+            "ave_precision_score": 0.6939583768320094,
+            "fpr": 0.01485148514851485,
+            "logloss": 14.270901371339416,
+            "mae": 0.47326730293846453,
+            "precision": 0.7321428571428571,
+            "recall": 0.08134920634920635
+        },
+        "train": {
+            "accuracy": 0.5386138613861386,
+            "auc_prc": 0.7363893764571736,
+            "auditor_fn_violation": 0.003058175640049208,
+            "auditor_fp_violation": 0.0036415172332342582,
+            "ave_precision_score": 0.7230406217516201,
+            "fpr": 0.013861386138613862,
+            "logloss": 13.995756940522764,
+            "mae": 0.4613858589364944,
+            "precision": 0.7971014492753623,
+            "recall": 0.10848126232741617
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(88)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.6306930693069307,
+            "auc_prc": 0.7295816040285281,
+            "auditor_fn_violation": 0.08352192362093354,
+            "auditor_fp_violation": 0.07015418933197667,
+            "ave_precision_score": 0.6531298312762912,
+            "fpr": 0.1297029702970297,
+            "logloss": 8.150116964825916,
+            "mae": 0.3694759435617783,
+            "precision": 0.6666666666666666,
+            "recall": 0.5198412698412699
+        },
+        "train": {
+            "accuracy": 0.6415841584158416,
+            "auc_prc": 0.7466951315964456,
+            "auditor_fn_violation": 0.08467982892963853,
+            "auditor_fp_violation": 0.06963171466251994,
+            "ave_precision_score": 0.6719536598691238,
+            "fpr": 0.12376237623762376,
+            "logloss": 7.905095142744199,
+            "mae": 0.3552019228216406,
+            "precision": 0.6835443037974683,
+            "recall": 0.5325443786982249
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(89)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.6643564356435644,
+            "auc_prc": 0.7844526532201648,
+            "auditor_fn_violation": 0.027117711771177118,
+            "auditor_fp_violation": 0.09553672758580205,
+            "ave_precision_score": 0.6375074727753077,
+            "fpr": 0.27821782178217824,
+            "logloss": 9.80386864225068,
+            "mae": 0.3352611601061425,
+            "precision": 0.6134800550206327,
+            "recall": 0.8849206349206349
+        },
+        "train": {
+            "accuracy": 0.6841584158415842,
+            "auc_prc": 0.7868853080409733,
+            "auditor_fn_violation": 0.031210576678969672,
+            "auditor_fp_violation": 0.10657835167214535,
+            "ave_precision_score": 0.6507684627657598,
+            "fpr": 0.25544554455445545,
+            "logloss": 9.237699955199474,
+            "mae": 0.3159800507858819,
+            "precision": 0.6335227272727273,
+            "recall": 0.8796844181459567
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(90)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.6405940594059406,
+            "auc_prc": 0.7055340664159346,
+            "auditor_fn_violation": 0.04194562313374195,
+            "auditor_fp_violation": 0.040867999843462614,
+            "ave_precision_score": 0.6828400581346437,
+            "fpr": 0.12574257425742574,
+            "logloss": 7.932195115352232,
+            "mae": 0.3588029192481955,
+            "precision": 0.6784810126582278,
+            "recall": 0.5317460317460317
+        },
+        "train": {
+            "accuracy": 0.6326732673267327,
+            "auc_prc": 0.7156089666210527,
+            "auditor_fn_violation": 0.04307809479172771,
+            "auditor_fp_violation": 0.03992677597779659,
+            "ave_precision_score": 0.6913933612443227,
+            "fpr": 0.10891089108910891,
+            "logloss": 8.390941126618527,
+            "mae": 0.3675317567302411,
+            "precision": 0.6910112359550562,
+            "recall": 0.48520710059171596
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(91)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.503960396039604,
+            "auc_prc": 0.7421160049039641,
+            "auditor_fn_violation": 0.0008624076693383624,
+            "auditor_fp_violation": 0.002531992329667772,
+            "ave_precision_score": 0.5105784472989245,
+            "fpr": 0.49504950495049505,
+            "logloss": 16.240397552123845,
+            "mae": 0.49601459463345976,
+            "precision": 0.5014955134596212,
+            "recall": 0.998015873015873
+        },
+        "train": {
+            "accuracy": 0.505940594059406,
+            "auc_prc": 0.7419459294263551,
+            "auditor_fn_violation": 0.0003808073115003808,
+            "auditor_fp_violation": 0.0027399956695470834,
+            "ave_precision_score": 0.5100836689929634,
+            "fpr": 0.49207920792079207,
+            "logloss": 16.249138904001526,
+            "mae": 0.49424886927900835,
+            "precision": 0.5039920159680639,
+            "recall": 0.9960552268244576
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(92)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.498019801980198,
+            "auc_prc": 0.742768064708185,
+            "auditor_fn_violation": 0.00047147571900047153,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.4974916160984231,
+            "fpr": 0.500990099009901,
+            "logloss": 17.120666534832484,
+            "mae": 0.501919801223396,
+            "precision": 0.4985133795837463,
+            "recall": 0.998015873015873
+        },
+        "train": {
+            "accuracy": 0.5,
+            "auc_prc": 0.7429200802585932,
+            "auditor_fn_violation": 0.001714609330755561,
+            "auditor_fp_violation": 0.001251894573155128,
+            "ave_precision_score": 0.5025486347646967,
+            "fpr": 0.49504950495049505,
+            "logloss": 16.870186430739334,
+            "mae": 0.49975037672787576,
+            "precision": 0.500998003992016,
+            "recall": 0.9901380670611439
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(93)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.6297029702970297,
+            "auc_prc": 0.6951235170742448,
+            "auditor_fn_violation": 0.04470572057205721,
+            "auditor_fp_violation": 0.034643681759480294,
+            "ave_precision_score": 0.6419376683480049,
+            "fpr": 0.16930693069306932,
+            "logloss": 8.213879270481774,
+            "mae": 0.367704660532594,
+            "precision": 0.6377118644067796,
+            "recall": 0.5972222222222222
+        },
+        "train": {
+            "accuracy": 0.6405940594059406,
+            "auc_prc": 0.7121747906505542,
+            "auditor_fn_violation": 0.03945554318745485,
+            "auditor_fp_violation": 0.05089266381906581,
+            "ave_precision_score": 0.6707829598844872,
+            "fpr": 0.14455445544554454,
+            "logloss": 8.070277147818114,
+            "mae": 0.36124407245928275,
+            "precision": 0.6651376146788991,
+            "recall": 0.571992110453649
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(94)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.7178217821782178,
+            "auc_prc": 0.7649466771854608,
+            "auditor_fn_violation": 0.0437961653308188,
+            "auditor_fp_violation": 0.05753923218408797,
+            "ave_precision_score": 0.7621652639039154,
+            "fpr": 0.13762376237623763,
+            "logloss": 1.3142585490331506,
+            "mae": 0.2849061748852906,
+            "precision": 0.7203219315895373,
+            "recall": 0.7103174603174603
+        },
+        "train": {
+            "accuracy": 0.7326732673267327,
+            "auc_prc": 0.7713077984092429,
+            "auditor_fn_violation": 0.04757162106743218,
+            "auditor_fp_violation": 0.059051630809204184,
+            "ave_precision_score": 0.7661443782107455,
+            "fpr": 0.13663366336633664,
+            "logloss": 1.4140922408933394,
+            "mae": 0.26811432381309747,
+            "precision": 0.7309941520467836,
+            "recall": 0.7396449704142012
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(95)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.499009900990099,
+            "auc_prc": 0.7495049504950495,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.499009900990099,
+            "fpr": 0.500990099009901,
+            "logloss": 17.303985596162857,
+            "mae": 0.500990099009901,
+            "precision": 0.499009900990099,
+            "recall": 1.0
+        },
+        "train": {
+            "accuracy": 0.501980198019802,
+            "auc_prc": 0.750990099009901,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.501980198019802,
+            "fpr": 0.498019801980198,
+            "logloss": 17.201392796185605,
+            "mae": 0.498019801980198,
+            "precision": 0.501980198019802,
+            "recall": 1.0
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(96)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.699009900990099,
+            "auc_prc": 0.7587292179966932,
+            "auditor_fn_violation": 0.056577086280056574,
+            "auditor_fp_violation": 0.04588893671975894,
+            "ave_precision_score": 0.758923169976019,
+            "fpr": 0.08712871287128712,
+            "logloss": 1.5740389267053778,
+            "mae": 0.30328263669869077,
+            "precision": 0.7659574468085106,
+            "recall": 0.5714285714285714
+        },
+        "train": {
+            "accuracy": 0.7198019801980198,
+            "auc_prc": 0.7884081269495447,
+            "auditor_fn_violation": 0.06575663483508115,
+            "auditor_fp_violation": 0.04736334468436903,
+            "ave_precision_score": 0.788818748903181,
+            "fpr": 0.08415841584158416,
+            "logloss": 1.477184917955499,
+            "mae": 0.28653228691963756,
+            "precision": 0.7842639593908629,
+            "recall": 0.6094674556213018
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(97)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.499009900990099,
+            "auc_prc": 0.7495049504950495,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.499009900990099,
+            "fpr": 0.500990099009901,
+            "logloss": 17.303985596162857,
+            "mae": 0.500990099009901,
+            "precision": 0.499009900990099,
+            "recall": 1.0
+        },
+        "train": {
+            "accuracy": 0.501980198019802,
+            "auc_prc": 0.750990099009901,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.501980198019802,
+            "fpr": 0.498019801980198,
+            "logloss": 17.201392796185605,
+            "mae": 0.498019801980198,
+            "precision": 0.501980198019802,
+            "recall": 1.0
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(98)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.6653465346534654,
+            "auc_prc": 0.7785621955222026,
+            "auditor_fn_violation": 0.031247053276756247,
+            "auditor_fp_violation": 0.10073181231166595,
+            "ave_precision_score": 0.6378603807701627,
+            "fpr": 0.2693069306930693,
+            "logloss": 9.85037726001679,
+            "mae": 0.3332400844524982,
+            "precision": 0.6169014084507042,
+            "recall": 0.8690476190476191
+        },
+        "train": {
+            "accuracy": 0.6742574257425743,
+            "auc_prc": 0.787071442583333,
+            "auditor_fn_violation": 0.040931903841271704,
+            "auditor_fp_violation": 0.11049347479479558,
+            "ave_precision_score": 0.6539383887950377,
+            "fpr": 0.24653465346534653,
+            "logloss": 9.378511569441383,
+            "mae": 0.3257094073955985,
+            "precision": 0.6316568047337278,
+            "recall": 0.8422090729783037
+        }
+    },
+    {
+        "dataset": "adult",
+        "method": "feat_lex",
+        "model": "feat_lex:archive(99)",
+        "seed": 28699,
+        "test": {
+            "accuracy": 0.499009900990099,
+            "auc_prc": 0.7495049504950495,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.499009900990099,
+            "fpr": 0.500990099009901,
+            "logloss": 17.303985596162857,
+            "mae": 0.500990099009901,
+            "precision": 0.499009900990099,
+            "recall": 1.0
+        },
+        "train": {
+            "accuracy": 0.501980198019802,
+            "auc_prc": 0.750990099009901,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.501980198019802,
+            "fpr": 0.498019801980198,
+            "logloss": 17.201392796185605,
+            "mae": 0.498019801980198,
+            "precision": 0.501980198019802,
+            "recall": 1.0
+        }
+    }
+]

@@ -1,0 +1,3002 @@
+[
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(0)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.7182017543859649,
+            "auc_prc": 0.8106887510084769,
+            "auditor_fn_violation": 0.02265485141424992,
+            "auditor_fp_violation": 0.02489450818990606,
+            "ave_precision_score": 0.811024609330952,
+            "fpr": 0.14802631578947367,
+            "logloss": 1.0504564127579759,
+            "mae": 0.2917580566550247,
+            "precision": 0.731610337972167,
+            "recall": 0.7510204081632653
+        },
+        "train": {
+            "accuracy": 0.7574094401756312,
+            "auc_prc": 0.8327700916865778,
+            "auditor_fn_violation": 0.023936371550777845,
+            "auditor_fp_violation": 0.03276385809040389,
+            "ave_precision_score": 0.8332531328828373,
+            "fpr": 0.13062568605927552,
+            "logloss": 0.8805054138565375,
+            "mae": 0.25306022289725155,
+            "precision": 0.7525987525987526,
+            "recall": 0.7801724137931034
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(1)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.7587719298245614,
+            "auc_prc": 0.86449803098585,
+            "auditor_fn_violation": 0.021271929824561407,
+            "auditor_fp_violation": 0.016436975139269977,
+            "ave_precision_score": 0.8646992995620238,
+            "fpr": 0.1337719298245614,
+            "logloss": 0.5228880222669401,
+            "mae": 0.28833825879509706,
+            "precision": 0.7626459143968871,
+            "recall": 0.8
+        },
+        "train": {
+            "accuracy": 0.7782656421514819,
+            "auc_prc": 0.8653788977889931,
+            "auditor_fn_violation": 0.014203792724932818,
+            "auditor_fp_violation": 0.02829449654606758,
+            "ave_precision_score": 0.8659300616118248,
+            "fpr": 0.13062568605927552,
+            "logloss": 0.4839428829488372,
+            "mae": 0.26762251980484153,
+            "precision": 0.762,
+            "recall": 0.8211206896551724
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(2)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.6162280701754386,
+            "auc_prc": 0.723991944392731,
+            "auditor_fn_violation": 0.08851593268886504,
+            "auditor_fp_violation": 0.023218591502452816,
+            "ave_precision_score": 0.7196688214427097,
+            "fpr": 0.1118421052631579,
+            "logloss": 2.017404398497925,
+            "mae": 0.41498812562597065,
+            "precision": 0.7034883720930233,
+            "recall": 0.49387755102040815
+        },
+        "train": {
+            "accuracy": 0.6454445664105378,
+            "auc_prc": 0.7247494295417305,
+            "auditor_fn_violation": 0.08044399863734435,
+            "auditor_fp_violation": 0.023552553061389873,
+            "ave_precision_score": 0.7210054963624908,
+            "fpr": 0.10537870472008781,
+            "logloss": 1.9210976618262094,
+            "mae": 0.39954088468667676,
+            "precision": 0.7117117117117117,
+            "recall": 0.5107758620689655
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(3)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.7730263157894737,
+            "auc_prc": 0.8626558265169255,
+            "auditor_fn_violation": 0.00857053347654852,
+            "auditor_fp_violation": 0.0061138480086472095,
+            "ave_precision_score": 0.8572225075832365,
+            "fpr": 0.0756578947368421,
+            "logloss": 0.49590677116809634,
+            "mae": 0.3096873418411665,
+            "precision": 0.836104513064133,
+            "recall": 0.7183673469387755
+        },
+        "train": {
+            "accuracy": 0.7793633369923162,
+            "auc_prc": 0.8513765990387328,
+            "auditor_fn_violation": 0.012072277527536998,
+            "auditor_fp_violation": 0.009763835989165488,
+            "ave_precision_score": 0.846097075379058,
+            "fpr": 0.06805708013172337,
+            "logloss": 0.49304380469239956,
+            "mae": 0.3037105802974115,
+            "precision": 0.8397932816537468,
+            "recall": 0.7004310344827587
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(4)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.6271929824561403,
+            "auc_prc": 0.5519096412972653,
+            "auditor_fn_violation": 0.012432867883995707,
+            "auditor_fp_violation": 0.018422091959757223,
+            "ave_precision_score": 0.6328859036833496,
+            "fpr": 0.26096491228070173,
+            "logloss": 0.6679573006274153,
+            "mae": 0.48273371068532006,
+            "precision": 0.6198083067092651,
+            "recall": 0.7918367346938775
+        },
+        "train": {
+            "accuracy": 0.6136114160263447,
+            "auc_prc": 0.5011965252207929,
+            "auditor_fn_violation": 0.002914569060146106,
+            "auditor_fp_violation": 0.010313911256160735,
+            "ave_precision_score": 0.6227345416191506,
+            "fpr": 0.2810098792535675,
+            "logloss": 0.669812603393481,
+            "mae": 0.4836579489263038,
+            "precision": 0.5897435897435898,
+            "recall": 0.7931034482758621
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(5)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.668859649122807,
+            "auc_prc": 0.8032494138679458,
+            "auditor_fn_violation": 0.011564625850340137,
+            "auditor_fp_violation": 0.002138417726781411,
+            "ave_precision_score": 0.7992448805328234,
+            "fpr": 0.05592105263157895,
+            "logloss": 0.6173836811860535,
+            "mae": 0.3767535920222208,
+            "precision": 0.8241379310344827,
+            "recall": 0.48775510204081635
+        },
+        "train": {
+            "accuracy": 0.6871569703622393,
+            "auc_prc": 0.7997544220238262,
+            "auditor_fn_violation": 0.010976948408342489,
+            "auditor_fp_violation": 0.005481107124702557,
+            "ave_precision_score": 0.792034105304105,
+            "fpr": 0.05378704720087816,
+            "logloss": 0.5866955151604383,
+            "mae": 0.36064360339836543,
+            "precision": 0.8231046931407943,
+            "recall": 0.49137931034482757
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(6)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.45723684210526316,
+            "auc_prc": 0.5896184476078795,
+            "auditor_fn_violation": 0.0010159326888650318,
+            "auditor_fp_violation": 0.0027178431861644634,
+            "ave_precision_score": 0.5912604385541742,
+            "fpr": 0.007675438596491228,
+            "logloss": 5.404803183106974,
+            "mae": 0.5392906558193856,
+            "precision": 0.2222222222222222,
+            "recall": 0.004081632653061225
+        },
+        "train": {
+            "accuracy": 0.4961580680570801,
+            "auc_prc": 0.5449006873896097,
+            "auditor_fn_violation": 0.0014525530867936184,
+            "auditor_fp_violation": 0.0005132398696518072,
+            "ave_precision_score": 0.546029299806043,
+            "fpr": 0.0010976948408342481,
+            "logloss": 4.9736868573386195,
+            "mae": 0.5045151638485995,
+            "precision": 0.8571428571428571,
+            "recall": 0.01293103448275862
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(7)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.7675438596491229,
+            "auc_prc": 0.8587789691617429,
+            "auditor_fn_violation": 0.017212674543501616,
+            "auditor_fp_violation": 0.003141369418807684,
+            "ave_precision_score": 0.8527819380550372,
+            "fpr": 0.06469298245614036,
+            "logloss": 0.4944820538247296,
+            "mae": 0.3222619613648899,
+            "precision": 0.851010101010101,
+            "recall": 0.6877551020408164
+        },
+        "train": {
+            "accuracy": 0.7694840834248079,
+            "auc_prc": 0.8650299057247512,
+            "auditor_fn_violation": 0.017345471062492904,
+            "auditor_fp_violation": 0.015146715387618888,
+            "ave_precision_score": 0.8570490708620854,
+            "fpr": 0.06586169045005488,
+            "logloss": 0.47821204826849,
+            "mae": 0.3093903903429254,
+            "precision": 0.839572192513369,
+            "recall": 0.6767241379310345
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(8)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.5350877192982456,
+            "auc_prc": 0.6129106021099928,
+            "auditor_fn_violation": 0.008333333333333335,
+            "auditor_fp_violation": 0.011572919264987115,
+            "ave_precision_score": 0.6143792481122404,
+            "fpr": 0.16557017543859648,
+            "logloss": 0.7685072295749276,
+            "mae": 0.4611209532324625,
+            "precision": 0.5896739130434783,
+            "recall": 0.44285714285714284
+        },
+        "train": {
+            "accuracy": 0.5894621295279913,
+            "auc_prc": 0.6004894735330781,
+            "auditor_fn_violation": 0.0007664938112721998,
+            "auditor_fp_violation": 0.009943101589570182,
+            "ave_precision_score": 0.601881372444804,
+            "fpr": 0.14270032930845225,
+            "logloss": 0.7599859634474043,
+            "mae": 0.44344440001982105,
+            "precision": 0.6285714285714286,
+            "recall": 0.47413793103448276
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(9)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.5756578947368421,
+            "auc_prc": 0.7505124686145157,
+            "auditor_fn_violation": 0.004591836734693891,
+            "auditor_fp_violation": 0.002016296665835204,
+            "ave_precision_score": 0.6765206076496767,
+            "fpr": 0.01206140350877193,
+            "logloss": 1.3943202852884415,
+            "mae": 0.4594568917874998,
+            "precision": 0.912,
+            "recall": 0.23265306122448978
+        },
+        "train": {
+            "accuracy": 0.5971459934138309,
+            "auc_prc": 0.7358825803753223,
+            "auditor_fn_violation": 0.006860592755214063,
+            "auditor_fp_violation": 0.007649484181652535,
+            "ave_precision_score": 0.6679237136720146,
+            "fpr": 0.020856201975850714,
+            "logloss": 1.2733504208435509,
+            "mae": 0.4366486737122258,
+            "precision": 0.8592592592592593,
+            "recall": 0.25
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(10)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.49780701754385964,
+            "auc_prc": 0.6274972899041327,
+            "auditor_fn_violation": 0.010123523093447927,
+            "auditor_fp_violation": 0.0005508439344807524,
+            "ave_precision_score": 0.6283612302299816,
+            "fpr": 0.03728070175438596,
+            "logloss": 2.3611334120347425,
+            "mae": 0.48555681096824965,
+            "precision": 0.66,
+            "recall": 0.1346938775510204
+        },
+        "train": {
+            "accuracy": 0.5038419319429198,
+            "auc_prc": 0.5787793136447699,
+            "auditor_fn_violation": 0.009406109239562432,
+            "auditor_fp_violation": 0.003526375372344477,
+            "ave_precision_score": 0.5802111148197959,
+            "fpr": 0.04171240395170143,
+            "logloss": 1.7680656326836819,
+            "mae": 0.474285006997555,
+            "precision": 0.5681818181818182,
+            "recall": 0.10775862068965517
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(11)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.5515350877192983,
+            "auc_prc": 0.6309326572977465,
+            "auditor_fn_violation": 0.004811134980307912,
+            "auditor_fp_violation": 0.007992433690862232,
+            "ave_precision_score": 0.5860500037254759,
+            "fpr": 0.4232456140350877,
+            "logloss": 0.721528461730954,
+            "mae": 0.4690885450200815,
+            "precision": 0.5474794841735052,
+            "recall": 0.9530612244897959
+        },
+        "train": {
+            "accuracy": 0.544456641053787,
+            "auc_prc": 0.6642139771624018,
+            "auditor_fn_violation": 0.007385782959233885,
+            "auditor_fp_violation": 0.00790487626990033,
+            "ave_precision_score": 0.5992624523459733,
+            "fpr": 0.43468715697036225,
+            "logloss": 0.7238829787636225,
+            "mae": 0.4700363542389791,
+            "precision": 0.5291319857312723,
+            "recall": 0.959051724137931
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(12)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.5405701754385965,
+            "auc_prc": 0.7691002636550445,
+            "auditor_fn_violation": 0.0006109022556390979,
+            "auditor_fp_violation": 0.0020682630747484985,
+            "ave_precision_score": 0.5391410578773326,
+            "fpr": 0.4583333333333333,
+            "logloss": 15.83172911702716,
+            "mae": 0.45912078391120303,
+            "precision": 0.5391400220507166,
+            "recall": 0.9979591836734694
+        },
+        "train": {
+            "accuracy": 0.5170142700329309,
+            "auc_prc": 0.756921373200443,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0021339973527627733,
+            "ave_precision_score": 0.5138427464008859,
+            "fpr": 0.4829857299670692,
+            "logloss": 16.64620681706264,
+            "mae": 0.4832044423587976,
+            "precision": 0.5132743362831859,
+            "recall": 1.0
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(13)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.7532894736842105,
+            "auc_prc": 0.8280690532812074,
+            "auditor_fn_violation": 0.016344432509846046,
+            "auditor_fp_violation": 0.009120104764280374,
+            "ave_precision_score": 0.8112996305781042,
+            "fpr": 0.11732456140350878,
+            "logloss": 0.5268382106350485,
+            "mae": 0.33995007860357873,
+            "precision": 0.7766179540709812,
+            "recall": 0.7591836734693878
+        },
+        "train": {
+            "accuracy": 0.7552140504939627,
+            "auc_prc": 0.8283567345623513,
+            "auditor_fn_violation": 0.0018452628789886046,
+            "auditor_fp_violation": 0.014694867846872796,
+            "ave_precision_score": 0.8024328158463095,
+            "fpr": 0.11086717892425905,
+            "logloss": 0.505968899215089,
+            "mae": 0.33474809577449355,
+            "precision": 0.7720090293453724,
+            "recall": 0.7370689655172413
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(14)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.6896929824561403,
+            "auc_prc": 0.8510521135163684,
+            "auditor_fn_violation": 0.004533655567490157,
+            "auditor_fp_violation": 0.011645672237465703,
+            "ave_precision_score": 0.851250192758312,
+            "fpr": 0.2708333333333333,
+            "logloss": 0.5493791160761801,
+            "mae": 0.375887288940711,
+            "precision": 0.6476462196861626,
+            "recall": 0.926530612244898
+        },
+        "train": {
+            "accuracy": 0.686059275521405,
+            "auc_prc": 0.8235107748342911,
+            "auditor_fn_violation": 0.005762897914379804,
+            "auditor_fp_violation": 0.021553618832219682,
+            "ave_precision_score": 0.8238062749454131,
+            "fpr": 0.27442371020856204,
+            "logloss": 0.5699118323792725,
+            "mae": 0.3836600822033657,
+            "precision": 0.6312684365781711,
+            "recall": 0.9224137931034483
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(15)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.7631578947368421,
+            "auc_prc": 0.8229916336487217,
+            "auditor_fn_violation": 0.006688596491228078,
+            "auditor_fp_violation": 0.0075481208946536985,
+            "ave_precision_score": 0.8087034907145099,
+            "fpr": 0.0756578947368421,
+            "logloss": 0.572975873325188,
+            "mae": 0.34386966014771086,
+            "precision": 0.8325242718446602,
+            "recall": 0.7
+        },
+        "train": {
+            "accuracy": 0.7628979143798024,
+            "auc_prc": 0.8199284778454728,
+            "auditor_fn_violation": 0.005725046368144142,
+            "auditor_fp_violation": 0.00914500131379584,
+            "ave_precision_score": 0.8002873348928558,
+            "fpr": 0.07683863885839737,
+            "logloss": 0.5675860730983946,
+            "mae": 0.3378959780581435,
+            "precision": 0.8195876288659794,
+            "recall": 0.6853448275862069
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(16)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.6337719298245614,
+            "auc_prc": 0.7383070782098978,
+            "auditor_fn_violation": 0.03619539921231651,
+            "auditor_fp_violation": 0.05317462792051219,
+            "ave_precision_score": 0.6795923687404003,
+            "fpr": 0.27960526315789475,
+            "logloss": 5.744281063490282,
+            "mae": 0.3590264675049594,
+            "precision": 0.6171171171171171,
+            "recall": 0.8387755102040816
+        },
+        "train": {
+            "accuracy": 0.6553238199780461,
+            "auc_prc": 0.7755847555200186,
+            "auditor_fn_violation": 0.0260134751504599,
+            "auditor_fp_violation": 0.05242413749917121,
+            "ave_precision_score": 0.7169561962467266,
+            "fpr": 0.278814489571899,
+            "logloss": 4.6988550717945,
+            "mae": 0.33154610630734166,
+            "precision": 0.6139817629179332,
+            "recall": 0.8706896551724138
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(17)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.5372807017543859,
+            "auc_prc": 0.5887161603819351,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.558183399655491,
+            "fpr": 0.46271929824561403,
+            "logloss": 6.546682855242725,
+            "mae": 0.46269962067405385,
+            "precision": 0.5372807017543859,
+            "recall": 1.0
+        },
+        "train": {
+            "accuracy": 0.5093304061470911,
+            "auc_prc": 0.5639570513544863,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0,
+            "ave_precision_score": 0.5340259091263385,
+            "fpr": 0.49066959385290887,
+            "logloss": 6.783807628371528,
+            "mae": 0.49041559654323774,
+            "precision": 0.5093304061470911,
+            "recall": 1.0
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(18)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.5734649122807017,
+            "auc_prc": 0.7429568312212081,
+            "auditor_fn_violation": 0.003533387039026137,
+            "auditor_fp_violation": 0.0019747235387045795,
+            "ave_precision_score": 0.5555094614945945,
+            "fpr": 0.40789473684210525,
+            "logloss": 12.751527412241343,
+            "mae": 0.43669940635899956,
+            "precision": 0.5597633136094674,
+            "recall": 0.9653061224489796
+        },
+        "train": {
+            "accuracy": 0.5378704720087816,
+            "auc_prc": 0.7183669102168196,
+            "auditor_fn_violation": 0.002701654112570499,
+            "auditor_fp_violation": 0.004847538290395541,
+            "ave_precision_score": 0.5160028738931215,
+            "fpr": 0.43798024149286496,
+            "logloss": 14.028352005336874,
+            "mae": 0.46630283719992915,
+            "precision": 0.525564803804994,
+            "recall": 0.9525862068965517
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(19)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.6875,
+            "auc_prc": 0.8105052467619344,
+            "auditor_fn_violation": 0.022780164697457948,
+            "auditor_fp_violation": 0.006116446329092874,
+            "ave_precision_score": 0.8025999071975967,
+            "fpr": 0.03289473684210526,
+            "logloss": 0.7166280746116562,
+            "mae": 0.3966092511137392,
+            "precision": 0.8867924528301887,
+            "recall": 0.47959183673469385
+        },
+        "train": {
+            "accuracy": 0.6992316136114161,
+            "auc_prc": 0.7997231753364135,
+            "auditor_fn_violation": 0.021229985994927904,
+            "auditor_fp_violation": 0.005149588548611674,
+            "ave_precision_score": 0.7868481548558628,
+            "fpr": 0.03951701427003293,
+            "logloss": 0.6940484847266665,
+            "mae": 0.3813326518556666,
+            "precision": 0.8625954198473282,
+            "recall": 0.4870689655172414
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(20)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.7708333333333334,
+            "auc_prc": 0.8227165846978659,
+            "auditor_fn_violation": 0.01207035445757251,
+            "auditor_fp_violation": 0.007472769601729447,
+            "ave_precision_score": 0.8416495670493226,
+            "fpr": 0.0712719298245614,
+            "logloss": 0.5128955189819729,
+            "mae": 0.34278313364637525,
+            "precision": 0.8418491484184915,
+            "recall": 0.7061224489795919
+        },
+        "train": {
+            "accuracy": 0.743139407244786,
+            "auc_prc": 0.8353986766760666,
+            "auditor_fn_violation": 0.002654339679775918,
+            "auditor_fp_violation": 0.004432526146992883,
+            "ave_precision_score": 0.828102292729722,
+            "fpr": 0.07793633369923161,
+            "logloss": 0.5366192961353097,
+            "mae": 0.35485460933882634,
+            "precision": 0.8091397849462365,
+            "recall": 0.6487068965517241
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(21)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.6721491228070176,
+            "auc_prc": 0.7376509189912026,
+            "auditor_fn_violation": 0.011819727891156472,
+            "auditor_fp_violation": 0.009956763947784157,
+            "ave_precision_score": 0.7297613421553171,
+            "fpr": 0.1425438596491228,
+            "logloss": 1.0760137336825157,
+            "mae": 0.363300584338344,
+            "precision": 0.7117516629711752,
+            "recall": 0.6551020408163265
+        },
+        "train": {
+            "accuracy": 0.686059275521405,
+            "auc_prc": 0.7491972798081892,
+            "auditor_fn_violation": 0.016725651992883908,
+            "auditor_fp_violation": 0.02999874759649033,
+            "ave_precision_score": 0.7404658126485009,
+            "fpr": 0.141602634467618,
+            "logloss": 1.023888815143821,
+            "mae": 0.3504059277433988,
+            "precision": 0.7041284403669725,
+            "recall": 0.6616379310344828
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(22)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.5328947368421053,
+            "auc_prc": 0.6599607436851653,
+            "auditor_fn_violation": 0.0002864303616183363,
+            "auditor_fp_violation": 0.0065399725617360975,
+            "ave_precision_score": 0.5501946420799962,
+            "fpr": 0.33881578947368424,
+            "logloss": 9.103445949038191,
+            "mae": 0.4683970190591853,
+            "precision": 0.5469208211143695,
+            "recall": 0.7612244897959184
+        },
+        "train": {
+            "accuracy": 0.5203073545554336,
+            "auc_prc": 0.6347892072175233,
+            "auditor_fn_violation": 0.0019162345281804767,
+            "auditor_fp_violation": 0.0018098458561406044,
+            "ave_precision_score": 0.514678807487297,
+            "fpr": 0.3633369923161361,
+            "logloss": 9.690809709467894,
+            "mae": 0.49081896526094504,
+            "precision": 0.5195936139332366,
+            "recall": 0.771551724137931
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(23)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.6929824561403509,
+            "auc_prc": 0.7996350736275102,
+            "auditor_fn_violation": 0.009543949158610813,
+            "auditor_fp_violation": 0.024200756630913787,
+            "ave_precision_score": 0.799810565242733,
+            "fpr": 0.24232456140350878,
+            "logloss": 1.4847672872126398,
+            "mae": 0.31029768616950054,
+            "precision": 0.661042944785276,
+            "recall": 0.8795918367346939
+        },
+        "train": {
+            "accuracy": 0.7332601536772777,
+            "auc_prc": 0.8210736351949346,
+            "auditor_fn_violation": 0.010664673151898256,
+            "auditor_fp_violation": 0.031069429812606058,
+            "ave_precision_score": 0.8210770988550424,
+            "fpr": 0.21514818880351264,
+            "logloss": 1.314691407106497,
+            "mae": 0.2773236816113662,
+            "precision": 0.6802610114192496,
+            "recall": 0.8987068965517241
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(24)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.39144736842105265,
+            "auc_prc": 0.6234434938952522,
+            "auditor_fn_violation": 0.008360186179735057,
+            "auditor_fp_violation": 0.0023280951193148766,
+            "ave_precision_score": 0.6284437071580631,
+            "fpr": 0.3717105263157895,
+            "logloss": 7.352102845061424,
+            "mae": 0.6098394414582409,
+            "precision": 0.4469820554649266,
+            "recall": 0.5591836734693878
+        },
+        "train": {
+            "accuracy": 0.3633369923161361,
+            "auc_prc": 0.6064777952549081,
+            "auditor_fn_violation": 0.008462186305310579,
+            "auditor_fp_violation": 0.014085855944128086,
+            "ave_precision_score": 0.6119163007552338,
+            "fpr": 0.39846322722283206,
+            "logloss": 7.611737416936489,
+            "mae": 0.6364482778570011,
+            "precision": 0.40491803278688526,
+            "recall": 0.5323275862068966
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(25)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.4473684210526316,
+            "auc_prc": 0.6042018502428315,
+            "auditor_fn_violation": 0.00385785893304692,
+            "auditor_fp_violation": 0.008823896233474684,
+            "ave_precision_score": 0.52513011403686,
+            "fpr": 0.25,
+            "logloss": 0.6940089333263861,
+            "mae": 0.5003626604744217,
+            "precision": 0.4841628959276018,
+            "recall": 0.43673469387755104
+        },
+        "train": {
+            "accuracy": 0.4829857299670692,
+            "auc_prc": 0.6104629010675876,
+            "auditor_fn_violation": 0.004272493281350551,
+            "auditor_fp_violation": 0.008690698079893535,
+            "ave_precision_score": 0.5176752546800291,
+            "fpr": 0.24807903402854006,
+            "logloss": 0.6931532038669004,
+            "mae": 0.49993233106269797,
+            "precision": 0.49213483146067416,
+            "recall": 0.47198275862068967
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(26)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.7390350877192983,
+            "auc_prc": 0.8243266173926979,
+            "auditor_fn_violation": 0.00105173648406732,
+            "auditor_fp_violation": 0.009473476344890668,
+            "ave_precision_score": 0.8018705366689656,
+            "fpr": 0.08991228070175439,
+            "logloss": 3.319468686716787,
+            "mae": 0.27155071363091243,
+            "precision": 0.8028846153846154,
+            "recall": 0.6816326530612244
+        },
+        "train": {
+            "accuracy": 0.7365532381997805,
+            "auc_prc": 0.808771827681186,
+            "auditor_fn_violation": 0.017657746318937136,
+            "auditor_fp_violation": 0.008926444622891484,
+            "ave_precision_score": 0.784220133396476,
+            "fpr": 0.10098792535675083,
+            "logloss": 3.5027428387956405,
+            "mae": 0.27733359317371226,
+            "precision": 0.7745098039215687,
+            "recall": 0.6810344827586207
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(27)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.7598684210526315,
+            "auc_prc": 0.8001991168939804,
+            "auditor_fn_violation": 0.006319369853204441,
+            "auditor_fp_violation": 0.008241872453645965,
+            "ave_precision_score": 0.7561331575556008,
+            "fpr": 0.07346491228070176,
+            "logloss": 0.5506387319348814,
+            "mae": 0.362460276945249,
+            "precision": 0.8345679012345679,
+            "recall": 0.689795918367347
+        },
+        "train": {
+            "accuracy": 0.7464324917672887,
+            "auc_prc": 0.7705441405683221,
+            "auditor_fn_violation": 0.004334002043983498,
+            "auditor_fp_violation": 0.00936110231154397,
+            "ave_precision_score": 0.7243483491671044,
+            "fpr": 0.07354555433589462,
+            "logloss": 0.5668128872340661,
+            "mae": 0.3699908471297223,
+            "precision": 0.8174386920980926,
+            "recall": 0.646551724137931
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(28)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.75,
+            "auc_prc": 0.8338651843679741,
+            "auditor_fn_violation": 0.015597028284998225,
+            "auditor_fp_violation": 0.006620520495551677,
+            "ave_precision_score": 0.8331502968763547,
+            "fpr": 0.06469298245614036,
+            "logloss": 0.5380552192229462,
+            "mae": 0.33730354061832224,
+            "precision": 0.8447368421052631,
+            "recall": 0.6551020408163265
+        },
+        "train": {
+            "accuracy": 0.7420417124039517,
+            "auc_prc": 0.8238799976437077,
+            "auditor_fn_violation": 0.004847363639804688,
+            "auditor_fp_violation": 0.011251986041840103,
+            "ave_precision_score": 0.825213059621039,
+            "fpr": 0.07464324917672886,
+            "logloss": 0.5116147538509159,
+            "mae": 0.32357754321404936,
+            "precision": 0.8136986301369863,
+            "recall": 0.6400862068965517
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(29)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.7719298245614035,
+            "auc_prc": 0.8601144645482002,
+            "auditor_fn_violation": 0.00880997135696384,
+            "auditor_fp_violation": 0.011162384634572212,
+            "ave_precision_score": 0.8603682935454806,
+            "fpr": 0.11513157894736842,
+            "logloss": 0.5398800198579663,
+            "mae": 0.3257075743104954,
+            "precision": 0.7865853658536586,
+            "recall": 0.789795918367347
+        },
+        "train": {
+            "accuracy": 0.7716794731064764,
+            "auc_prc": 0.8508295321530543,
+            "auditor_fn_violation": 0.004419168023013739,
+            "auditor_fp_violation": 0.011129201384028668,
+            "ave_precision_score": 0.8511466520608315,
+            "fpr": 0.10976948408342481,
+            "logloss": 0.4801040833614962,
+            "mae": 0.32033535370183813,
+            "precision": 0.7807017543859649,
+            "recall": 0.7672413793103449
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(30)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.46710526315789475,
+            "auc_prc": 0.5455606324029111,
+            "auditor_fn_violation": 0.0038847117794486297,
+            "auditor_fp_violation": 0.0054045065269809605,
+            "ave_precision_score": 0.5461957211432922,
+            "fpr": 0.041666666666666664,
+            "logloss": 0.7739728360663303,
+            "mae": 0.5084633753684006,
+            "precision": 0.525,
+            "recall": 0.08571428571428572
+        },
+        "train": {
+            "accuracy": 0.5181119648737651,
+            "auc_prc": 0.5669584394461966,
+            "auditor_fn_violation": 0.0016536394261705647,
+            "auditor_fp_violation": 0.007654395567964994,
+            "ave_precision_score": 0.5683669283326152,
+            "fpr": 0.03732162458836443,
+            "logloss": 0.7370163730536552,
+            "mae": 0.4913511138846924,
+            "precision": 0.6344086021505376,
+            "recall": 0.1271551724137931
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(31)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.4758771929824561,
+            "auc_prc": 0.5449042504713364,
+            "auditor_fn_violation": 0.003916040100250635,
+            "auditor_fp_violation": 0.01394778415232394,
+            "ave_precision_score": 0.546160381348203,
+            "fpr": 0.10197368421052631,
+            "logloss": 1.6810651193270931,
+            "mae": 0.5178968765350642,
+            "precision": 0.5303030303030303,
+            "recall": 0.21428571428571427
+        },
+        "train": {
+            "accuracy": 0.5455543358946213,
+            "auc_prc": 0.5821298254833258,
+            "auditor_fn_violation": 0.0013910443241606433,
+            "auditor_fp_violation": 0.011259353121308787,
+            "ave_precision_score": 0.5832311314674763,
+            "fpr": 0.09001097694840834,
+            "logloss": 1.4786571634214036,
+            "mae": 0.47739013905753286,
+            "precision": 0.616822429906542,
+            "recall": 0.28448275862068967
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(32)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.6019736842105263,
+            "auc_prc": 0.6778825580420129,
+            "auditor_fn_violation": 0.003378983172216255,
+            "auditor_fp_violation": 0.02103600232809513,
+            "ave_precision_score": 0.586175144010607,
+            "fpr": 0.37609649122807015,
+            "logloss": 0.6614430876967472,
+            "mae": 0.4699428131346378,
+            "precision": 0.5781057810578106,
+            "recall": 0.9591836734693877
+        },
+        "train": {
+            "accuracy": 0.5861690450054885,
+            "auc_prc": 0.6522729962378571,
+            "auditor_fn_violation": 0.009959688103259019,
+            "auditor_fp_violation": 0.02477303256003556,
+            "ave_precision_score": 0.5540582985240421,
+            "fpr": 0.3929747530186608,
+            "logloss": 0.6621129445565528,
+            "mae": 0.46955002312733496,
+            "precision": 0.5541718555417185,
+            "recall": 0.959051724137931
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(33)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.7576754385964912,
+            "auc_prc": 0.8553432196386455,
+            "auditor_fn_violation": 0.008266201217329043,
+            "auditor_fp_violation": 0.020633262659017222,
+            "ave_precision_score": 0.8556391020893324,
+            "fpr": 0.12828947368421054,
+            "logloss": 0.49785924111862034,
+            "mae": 0.3304799654145251,
+            "precision": 0.7673956262425448,
+            "recall": 0.7877551020408163
+        },
+        "train": {
+            "accuracy": 0.7683863885839737,
+            "auc_prc": 0.8470365936244648,
+            "auditor_fn_violation": 0.008327340171846024,
+            "auditor_fp_violation": 0.014682589381091658,
+            "ave_precision_score": 0.8473704788896035,
+            "fpr": 0.12184412733260154,
+            "logloss": 0.49573476946619716,
+            "mae": 0.33255710851904063,
+            "precision": 0.7663157894736842,
+            "recall": 0.7844827586206896
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(34)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.6633771929824561,
+            "auc_prc": 0.7504927031113897,
+            "auditor_fn_violation": 0.008836824203365568,
+            "auditor_fp_violation": 0.01317868130040742,
+            "ave_precision_score": 0.6649457151274959,
+            "fpr": 0.17105263157894737,
+            "logloss": 0.6587089951356468,
+            "mae": 0.41416956963458734,
+            "precision": 0.6848484848484848,
+            "recall": 0.6918367346938775
+        },
+        "train": {
+            "accuracy": 0.7069154774972558,
+            "auc_prc": 0.7822494826819608,
+            "auditor_fn_violation": 0.015150081380824408,
+            "auditor_fp_violation": 0.03483155172794849,
+            "ave_precision_score": 0.6955176986235556,
+            "fpr": 0.15477497255762898,
+            "logloss": 0.597737667805271,
+            "mae": 0.38681191838991497,
+            "precision": 0.7056367432150313,
+            "recall": 0.728448275862069
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(35)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.7489035087719298,
+            "auc_prc": 0.8592122746252785,
+            "auditor_fn_violation": 0.021177944862155393,
+            "auditor_fp_violation": 0.008933025692192578,
+            "ave_precision_score": 0.8558655008012473,
+            "fpr": 0.1337719298245614,
+            "logloss": 0.5002305305566274,
+            "mae": 0.3239570190933974,
+            "precision": 0.7584158415841584,
+            "recall": 0.7816326530612245
+        },
+        "train": {
+            "accuracy": 0.7683863885839737,
+            "auc_prc": 0.8716931549091101,
+            "auditor_fn_violation": 0.015670540141564784,
+            "auditor_fp_violation": 0.021669036410562427,
+            "ave_precision_score": 0.8678558724954183,
+            "fpr": 0.12623490669593854,
+            "logloss": 0.4776575943808364,
+            "mae": 0.310521990448638,
+            "precision": 0.7619047619047619,
+            "recall": 0.7931034482758621
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(36)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.4550438596491228,
+            "auc_prc": 0.5139397581128549,
+            "auditor_fn_violation": 0.0022064088793412187,
+            "auditor_fp_violation": 0.005477259499459549,
+            "ave_precision_score": 0.5146451119423487,
+            "fpr": 0.03289473684210526,
+            "logloss": 12.213503562805705,
+            "mae": 0.5447027763831565,
+            "precision": 0.4339622641509434,
+            "recall": 0.04693877551020408
+        },
+        "train": {
+            "accuracy": 0.5038419319429198,
+            "auc_prc": 0.5492243993190186,
+            "auditor_fn_violation": 0.0029524206063817698,
+            "auditor_fp_violation": 0.0024335919178226847,
+            "ave_precision_score": 0.549428081362665,
+            "fpr": 0.021953896816684963,
+            "logloss": 10.93993741593093,
+            "mae": 0.4978156431986157,
+            "precision": 0.6153846153846154,
+            "recall": 0.06896551724137931
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(37)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.4692982456140351,
+            "auc_prc": 0.48330510727461545,
+            "auditor_fn_violation": 0.0046433046902971675,
+            "auditor_fp_violation": 0.004341793464704418,
+            "ave_precision_score": 0.5428595357736353,
+            "fpr": 0.09100877192982457,
+            "logloss": 0.6963526197666545,
+            "mae": 0.49702693734383374,
+            "precision": 0.5174418604651163,
+            "recall": 0.1816326530612245
+        },
+        "train": {
+            "accuracy": 0.5345773874862788,
+            "auc_prc": 0.5450609145102876,
+            "auditor_fn_violation": 0.0058291381202922295,
+            "auditor_fp_violation": 0.007465307194935382,
+            "ave_precision_score": 0.5433447581969857,
+            "fpr": 0.07683863885839737,
+            "logloss": 0.6816848244964765,
+            "mae": 0.48905627933278695,
+            "precision": 0.6111111111111112,
+            "recall": 0.23706896551724138
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(38)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.6710526315789473,
+            "auc_prc": 0.7749327413076029,
+            "auditor_fn_violation": 0.010544217687074838,
+            "auditor_fp_violation": 0.008969402178431868,
+            "ave_precision_score": 0.655876486630513,
+            "fpr": 0.1337719298245614,
+            "logloss": 0.6517276727379878,
+            "mae": 0.4727389622283609,
+            "precision": 0.7188940092165899,
+            "recall": 0.636734693877551
+        },
+        "train": {
+            "accuracy": 0.6882546652030735,
+            "auc_prc": 0.7694224186692973,
+            "auditor_fn_violation": 0.01524471024641357,
+            "auditor_fp_violation": 0.028179078967724827,
+            "ave_precision_score": 0.6458642066183982,
+            "fpr": 0.13391877058177826,
+            "logloss": 0.648232372490299,
+            "mae": 0.469276797365802,
+            "precision": 0.7122641509433962,
+            "recall": 0.6508620689655172
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(39)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.5756578947368421,
+            "auc_prc": 0.6941725301921939,
+            "auditor_fn_violation": 0.07559971356963839,
+            "auditor_fp_violation": 0.09499979213436438,
+            "ave_precision_score": 0.5868294240868293,
+            "fpr": 0.31140350877192985,
+            "logloss": 10.266403970306234,
+            "mae": 0.4260979840061631,
+            "precision": 0.5767511177347243,
+            "recall": 0.789795918367347
+        },
+        "train": {
+            "accuracy": 0.579582875960483,
+            "auc_prc": 0.7178986855472336,
+            "auditor_fn_violation": 0.05659989023051592,
+            "auditor_fp_violation": 0.09535456525636209,
+            "ave_precision_score": 0.5963487848957063,
+            "fpr": 0.3380900109769484,
+            "logloss": 9.955226529159933,
+            "mae": 0.4211099977163829,
+            "precision": 0.5581061692969871,
+            "recall": 0.8383620689655172
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(40)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.6524122807017544,
+            "auc_prc": 0.7712563261262655,
+            "auditor_fn_violation": 0.03668546365914788,
+            "auditor_fp_violation": 0.03590359191818408,
+            "ave_precision_score": 0.7703653089679161,
+            "fpr": 0.14802631578947367,
+            "logloss": 2.8229985370263244,
+            "mae": 0.3807299925477315,
+            "precision": 0.6952595936794582,
+            "recall": 0.6285714285714286
+        },
+        "train": {
+            "accuracy": 0.6750823271130626,
+            "auc_prc": 0.7632075600125027,
+            "auditor_fn_violation": 0.03548582459593475,
+            "auditor_fp_violation": 0.03462527350282527,
+            "ave_precision_score": 0.7624412080525286,
+            "fpr": 0.14050493962678376,
+            "logloss": 2.3609768121583947,
+            "mae": 0.3644499188046556,
+            "precision": 0.6981132075471698,
+            "recall": 0.6379310344827587
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(41)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.7543859649122807,
+            "auc_prc": 0.774276484635511,
+            "auditor_fn_violation": 0.007858933046902977,
+            "auditor_fp_violation": 0.01368535378731189,
+            "ave_precision_score": 0.8029054618421214,
+            "fpr": 0.12828947368421054,
+            "logloss": 0.5423012241158707,
+            "mae": 0.36452454199458945,
+            "precision": 0.766,
+            "recall": 0.7816326530612245
+        },
+        "train": {
+            "accuracy": 0.7639956092206367,
+            "auc_prc": 0.7933009506542541,
+            "auditor_fn_violation": 0.0007996139142283998,
+            "auditor_fp_violation": 0.012708212083483748,
+            "ave_precision_score": 0.792472039962944,
+            "fpr": 0.11855104281009879,
+            "logloss": 0.5281028099448389,
+            "mae": 0.35977464246959245,
+            "precision": 0.7677419354838709,
+            "recall": 0.7693965517241379
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(42)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.6842105263157895,
+            "auc_prc": 0.8556001053121787,
+            "auditor_fn_violation": 0.006735588972431077,
+            "auditor_fp_violation": 0.009730710069011394,
+            "ave_precision_score": 0.8558497288655283,
+            "fpr": 0.27960526315789475,
+            "logloss": 0.6522001223087656,
+            "mae": 0.35162376121438127,
+            "precision": 0.6418539325842697,
+            "recall": 0.9326530612244898
+        },
+        "train": {
+            "accuracy": 0.6904500548847421,
+            "auc_prc": 0.8486789658889416,
+            "auditor_fn_violation": 0.002675631174533481,
+            "auditor_fp_violation": 0.01869028061205697,
+            "ave_precision_score": 0.8489972314440134,
+            "fpr": 0.27552140504939626,
+            "logloss": 0.60132885294335,
+            "mae": 0.3484555044958754,
+            "precision": 0.6330409356725146,
+            "recall": 0.9331896551724138
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(43)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.731359649122807,
+            "auc_prc": 0.8134296465147366,
+            "auditor_fn_violation": 0.007729144289294669,
+            "auditor_fp_violation": 0.006875155899226748,
+            "ave_precision_score": 0.790209380540023,
+            "fpr": 0.15570175438596492,
+            "logloss": 0.5659750662307552,
+            "mae": 0.35792367834303723,
+            "precision": 0.7315689981096408,
+            "recall": 0.789795918367347
+        },
+        "train": {
+            "accuracy": 0.7343578485181119,
+            "auc_prc": 0.8103800524435395,
+            "auditor_fn_violation": 0.014937166433248803,
+            "auditor_fp_violation": 0.03073299985020273,
+            "ave_precision_score": 0.7840039351324801,
+            "fpr": 0.1525795828759605,
+            "logloss": 0.5546827091082666,
+            "mae": 0.349425439507129,
+            "precision": 0.722,
+            "recall": 0.7780172413793104
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(44)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.6973684210526315,
+            "auc_prc": 0.7548521212616823,
+            "auditor_fn_violation": 0.026181525241675618,
+            "auditor_fp_violation": 0.023494013469693195,
+            "ave_precision_score": 0.755371614131124,
+            "fpr": 0.09429824561403509,
+            "logloss": 0.6170333876888318,
+            "mae": 0.43726624711825135,
+            "precision": 0.7772020725388601,
+            "recall": 0.6122448979591837
+        },
+        "train": {
+            "accuracy": 0.6871569703622393,
+            "auc_prc": 0.7317404819340091,
+            "auditor_fn_violation": 0.031792933116317805,
+            "auditor_fp_violation": 0.026948776696454225,
+            "ave_precision_score": 0.7325019097278052,
+            "fpr": 0.09879253567508232,
+            "logloss": 0.6133933132051236,
+            "mae": 0.43522395625399707,
+            "precision": 0.7493036211699164,
+            "recall": 0.5797413793103449
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(45)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.7160087719298246,
+            "auc_prc": 0.8471079634467551,
+            "auditor_fn_violation": 0.014833959899749376,
+            "auditor_fp_violation": 0.01199384717718467,
+            "ave_precision_score": 0.8473539281992866,
+            "fpr": 0.12938596491228072,
+            "logloss": 0.7146074200730286,
+            "mae": 0.27874728120099335,
+            "precision": 0.7473233404710921,
+            "recall": 0.7122448979591837
+        },
+        "train": {
+            "accuracy": 0.7288693743139407,
+            "auc_prc": 0.8313808156797498,
+            "auditor_fn_violation": 0.007721715432075412,
+            "auditor_fp_violation": 0.008663685455175008,
+            "ave_precision_score": 0.831788631404948,
+            "fpr": 0.1207464324917673,
+            "logloss": 0.7150863836033664,
+            "mae": 0.2797939693408249,
+            "precision": 0.7482837528604119,
+            "recall": 0.7047413793103449
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(46)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.7324561403508771,
+            "auc_prc": 0.841819285918638,
+            "auditor_fn_violation": 0.02562209094163982,
+            "auditor_fp_violation": 0.016436975139269977,
+            "ave_precision_score": 0.8341850115570814,
+            "fpr": 0.07346491228070176,
+            "logloss": 0.5491367882181235,
+            "mae": 0.34845665504486023,
+            "precision": 0.8236842105263158,
+            "recall": 0.6387755102040816
+        },
+        "train": {
+            "accuracy": 0.7200878155872668,
+            "auc_prc": 0.8393206278292572,
+            "auditor_fn_violation": 0.017307619516257238,
+            "auditor_fp_violation": 0.025929664036619303,
+            "ave_precision_score": 0.8285470625980926,
+            "fpr": 0.09110867178924259,
+            "logloss": 0.5363209299263749,
+            "mae": 0.3403854318715542,
+            "precision": 0.7786666666666666,
+            "recall": 0.6293103448275862
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(47)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.743421052631579,
+            "auc_prc": 0.8204876492930697,
+            "auditor_fn_violation": 0.03434031507339778,
+            "auditor_fp_violation": 0.03267128128377817,
+            "ave_precision_score": 0.8149028234991889,
+            "fpr": 0.15460526315789475,
+            "logloss": 0.5307055651849744,
+            "mae": 0.35152849032167804,
+            "precision": 0.7379182156133829,
+            "recall": 0.810204081632653
+        },
+        "train": {
+            "accuracy": 0.7760702524698134,
+            "auc_prc": 0.8377484246275759,
+            "auditor_fn_violation": 0.027201067413603845,
+            "auditor_fp_violation": 0.034568792560232015,
+            "ave_precision_score": 0.8279289606868212,
+            "fpr": 0.13391877058177826,
+            "logloss": 0.4967194798853896,
+            "mae": 0.3319179588595546,
+            "precision": 0.7579365079365079,
+            "recall": 0.8232758620689655
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(48)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.680921052631579,
+            "auc_prc": 0.7783647296888151,
+            "auditor_fn_violation": 0.01599982098102399,
+            "auditor_fp_violation": 0.00682838613120479,
+            "ave_precision_score": 0.7788534238740328,
+            "fpr": 0.03728070175438596,
+            "logloss": 1.4060296207615675,
+            "mae": 0.39126915131981327,
+            "precision": 0.8726591760299626,
+            "recall": 0.47551020408163264
+        },
+        "train": {
+            "accuracy": 0.6619099890230515,
+            "auc_prc": 0.7222479217649328,
+            "auditor_fn_violation": 0.013882054581929697,
+            "auditor_fp_violation": 0.008125888653960911,
+            "ave_precision_score": 0.7239780282377908,
+            "fpr": 0.042810098792535674,
+            "logloss": 1.3103833877341755,
+            "mae": 0.3983273812892,
+            "precision": 0.8333333333333334,
+            "recall": 0.4202586206896552
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(49)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.5767543859649122,
+            "auc_prc": 0.8483141442022754,
+            "auditor_fn_violation": 0.016950859291084856,
+            "auditor_fp_violation": 0.04062993680884678,
+            "ave_precision_score": 0.8485895720094115,
+            "fpr": 0.39364035087719296,
+            "logloss": 0.9884326576956732,
+            "mae": 0.3946927307276478,
+            "precision": 0.5632603406326034,
+            "recall": 0.9448979591836735
+        },
+        "train": {
+            "accuracy": 0.5784851811196488,
+            "auc_prc": 0.8383323741370147,
+            "auditor_fn_violation": 0.011885385517998412,
+            "auditor_fp_violation": 0.04644698035691045,
+            "ave_precision_score": 0.8396864996957631,
+            "fpr": 0.4039517014270033,
+            "logloss": 0.9503575472662027,
+            "mae": 0.3864739129425724,
+            "precision": 0.5490196078431373,
+            "recall": 0.9655172413793104
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(50)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.6293859649122807,
+            "auc_prc": 0.7880857430188315,
+            "auditor_fn_violation": 0.00994002864303617,
+            "auditor_fp_violation": 0.005266795543360773,
+            "ave_precision_score": 0.7638900937321713,
+            "fpr": 0.0537280701754386,
+            "logloss": 0.6445667689275957,
+            "mae": 0.39892405196370784,
+            "precision": 0.804,
+            "recall": 0.41020408163265304
+        },
+        "train": {
+            "accuracy": 0.6564215148188803,
+            "auc_prc": 0.8067716406234553,
+            "auditor_fn_violation": 0.005670634770430378,
+            "auditor_fp_violation": 0.009501076821449007,
+            "ave_precision_score": 0.7715860115053589,
+            "fpr": 0.048298572996706916,
+            "logloss": 0.6032885975621062,
+            "mae": 0.38273311223994233,
+            "precision": 0.8158995815899581,
+            "recall": 0.4202586206896552
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(51)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.7269736842105263,
+            "auc_prc": 0.8389468220678294,
+            "auditor_fn_violation": 0.007389008234872896,
+            "auditor_fp_violation": 0.016691610542945042,
+            "ave_precision_score": 0.8391695868211031,
+            "fpr": 0.18421052631578946,
+            "logloss": 0.539087946854876,
+            "mae": 0.3674509142803257,
+            "precision": 0.708838821490468,
+            "recall": 0.8346938775510204
+        },
+        "train": {
+            "accuracy": 0.7409440175631175,
+            "auc_prc": 0.8213787404825381,
+            "auditor_fn_violation": 0.001438358756955224,
+            "auditor_fp_violation": 0.014142336886721328,
+            "ave_precision_score": 0.8217836319093866,
+            "fpr": 0.1734357848518112,
+            "logloss": 0.5365973670155156,
+            "mae": 0.3645190394654232,
+            "precision": 0.7095588235294118,
+            "recall": 0.8318965517241379
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(52)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.6370614035087719,
+            "auc_prc": 0.7950287108135548,
+            "auditor_fn_violation": 0.014500537056928036,
+            "auditor_fp_violation": 0.025629832876028935,
+            "ave_precision_score": 0.7757151933068154,
+            "fpr": 0.3300438596491228,
+            "logloss": 3.4223752996195347,
+            "mae": 0.3705220124001874,
+            "precision": 0.6044678055190539,
+            "recall": 0.9387755102040817
+        },
+        "train": {
+            "accuracy": 0.6333699231613611,
+            "auc_prc": 0.8191002122182287,
+            "auditor_fn_violation": 0.010219917483629206,
+            "auditor_fp_violation": 0.032314466242814026,
+            "ave_precision_score": 0.8002067034418843,
+            "fpr": 0.34357848518111966,
+            "logloss": 3.2893031419774124,
+            "mae": 0.3614158349164709,
+            "precision": 0.5859788359788359,
+            "recall": 0.9547413793103449
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(53)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.5504385964912281,
+            "auc_prc": 0.7675852552386497,
+            "auditor_fn_violation": 0.0015104726100966703,
+            "auditor_fp_violation": 0.002325496798869226,
+            "ave_precision_score": 0.5453722677177812,
+            "fpr": 0.4375,
+            "logloss": 15.527650615447397,
+            "mae": 0.44956140350877194,
+            "precision": 0.5455580865603644,
+            "recall": 0.9775510204081632
+        },
+        "train": {
+            "accuracy": 0.5334796926454446,
+            "auc_prc": 0.7529170755656873,
+            "auditor_fn_violation": 0.0020061319504901774,
+            "auditor_fp_violation": 0.0032022238757223004,
+            "ave_precision_score": 0.5222909169141776,
+            "fpr": 0.4489571899012075,
+            "logloss": 16.113399564419307,
+            "mae": 0.4665203073545554,
+            "precision": 0.5227537922987164,
+            "recall": 0.9655172413793104
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(54)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.5405701754385965,
+            "auc_prc": 0.7690954329201252,
+            "auditor_fn_violation": 0.0006109022556390979,
+            "auditor_fp_violation": 0.0020682630747484985,
+            "ave_precision_score": 0.5391362275194996,
+            "fpr": 0.4583333333333333,
+            "logloss": 15.845192716052154,
+            "mae": 0.4594318511588171,
+            "precision": 0.5391400220507166,
+            "recall": 0.9979591836734694
+        },
+        "train": {
+            "accuracy": 0.5181119648737651,
+            "auc_prc": 0.756921373200443,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0026177689045398566,
+            "ave_precision_score": 0.5138427464008859,
+            "fpr": 0.4818880351262349,
+            "logloss": 16.644214053190105,
+            "mae": 0.48189367232099284,
+            "precision": 0.5138427464008859,
+            "recall": 1.0
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(55)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.6699561403508771,
+            "auc_prc": 0.803320076771369,
+            "auditor_fn_violation": 0.004667919799498763,
+            "auditor_fp_violation": 0.007155774507358444,
+            "ave_precision_score": 0.8036614837183995,
+            "fpr": 0.049342105263157895,
+            "logloss": 0.6135773759973714,
+            "mae": 0.3994495121812833,
+            "precision": 0.8387096774193549,
+            "recall": 0.4775510204081633
+        },
+        "train": {
+            "accuracy": 0.6684961580680571,
+            "auc_prc": 0.7701548515427012,
+            "auditor_fn_violation": 0.007239108217570716,
+            "auditor_fp_violation": 0.007735433442120541,
+            "ave_precision_score": 0.7708962752925651,
+            "fpr": 0.04939626783754116,
+            "logloss": 0.6216473692600247,
+            "mae": 0.39642898689261846,
+            "precision": 0.8214285714285714,
+            "recall": 0.44612068965517243
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(56)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.5975877192982456,
+            "auc_prc": 0.6890404419339509,
+            "auditor_fn_violation": 0.0071607590404582895,
+            "auditor_fp_violation": 0.03716637565477676,
+            "ave_precision_score": 0.6896028796245326,
+            "fpr": 0.39144736842105265,
+            "logloss": 1.8961636982021775,
+            "mae": 0.40483236360555647,
+            "precision": 0.5734767025089605,
+            "recall": 0.9795918367346939
+        },
+        "train": {
+            "accuracy": 0.5905598243688255,
+            "auc_prc": 0.6912348483027912,
+            "auditor_fn_violation": 0.005147810288050266,
+            "auditor_fp_violation": 0.039423697930096244,
+            "ave_precision_score": 0.6909419611215997,
+            "fpr": 0.40065861690450055,
+            "logloss": 1.93957389592159,
+            "mae": 0.4090887013041751,
+            "precision": 0.5554202192448234,
+            "recall": 0.9827586206896551
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(57)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.46381578947368424,
+            "auc_prc": 0.6984646917244786,
+            "auditor_fn_violation": 0.0003222341568206468,
+            "auditor_fp_violation": 0.0005196640891327846,
+            "ave_precision_score": 0.699568868835736,
+            "fpr": 0.0010964912280701754,
+            "logloss": 2.146922903029328,
+            "mae": 0.5009084904602977,
+            "precision": 0.6666666666666666,
+            "recall": 0.004081632653061225
+        },
+        "train": {
+            "accuracy": 0.49396267837541163,
+            "auc_prc": 0.6426196584421904,
+            "auditor_fn_violation": 0.0015637420038608673,
+            "auditor_fp_violation": 0.0010952391476780194,
+            "ave_precision_score": 0.6445728515868687,
+            "fpr": 0.0021953896816684962,
+            "logloss": 1.8325493488822613,
+            "mae": 0.48213461519336476,
+            "precision": 0.7142857142857143,
+            "recall": 0.010775862068965518
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(58)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.5953947368421053,
+            "auc_prc": 0.5704089559173923,
+            "auditor_fn_violation": 0.029285266738274262,
+            "auditor_fp_violation": 0.03410035752889333,
+            "ave_precision_score": 0.5732811438274705,
+            "fpr": 0.3157894736842105,
+            "logloss": 1.6897298625246595,
+            "mae": 0.4311636601304521,
+            "precision": 0.5868005738880918,
+            "recall": 0.8346938775510204
+        },
+        "train": {
+            "accuracy": 0.5916575192096597,
+            "auc_prc": 0.5544213551069596,
+            "auditor_fn_violation": 0.024305424126575572,
+            "auditor_fp_violation": 0.024660070674849047,
+            "ave_precision_score": 0.5553151344555614,
+            "fpr": 0.3216245883644347,
+            "logloss": 1.6369910884534566,
+            "mae": 0.43210116890947325,
+            "precision": 0.5678466076696165,
+            "recall": 0.8297413793103449
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(59)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.6282894736842105,
+            "auc_prc": 0.7312420630328196,
+            "auditor_fn_violation": 0.018242033655567497,
+            "auditor_fp_violation": 0.01158331254676978,
+            "ave_precision_score": 0.7217209391048935,
+            "fpr": 0.16557017543859648,
+            "logloss": 0.6625010450951896,
+            "mae": 0.4522492989914067,
+            "precision": 0.6666666666666666,
+            "recall": 0.6163265306122448
+        },
+        "train": {
+            "accuracy": 0.6750823271130626,
+            "auc_prc": 0.7654582285306828,
+            "auditor_fn_violation": 0.015225784473295739,
+            "auditor_fp_violation": 0.030330266172581204,
+            "ave_precision_score": 0.7521560796365009,
+            "fpr": 0.16245883644346873,
+            "logloss": 0.621226747941539,
+            "mae": 0.4323796497087447,
+            "precision": 0.6810344827586207,
+            "recall": 0.6810344827586207
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(60)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.5219298245614035,
+            "auc_prc": 0.6572950919646653,
+            "auditor_fn_violation": 0.011868958109559624,
+            "auditor_fp_violation": 0.007160971148249775,
+            "ave_precision_score": 0.640799906543667,
+            "fpr": 0.09539473684210527,
+            "logloss": 1.004962511076256,
+            "mae": 0.4764372968347743,
+            "precision": 0.618421052631579,
+            "recall": 0.28775510204081634
+        },
+        "train": {
+            "accuracy": 0.5872667398463227,
+            "auc_prc": 0.6814653577153262,
+            "auditor_fn_violation": 0.008861993262424785,
+            "auditor_fp_violation": 0.01135266946124548,
+            "ave_precision_score": 0.6553234522471526,
+            "fpr": 0.08562019758507135,
+            "logloss": 0.900866339393387,
+            "mae": 0.43620523133158734,
+            "precision": 0.680327868852459,
+            "recall": 0.3577586206896552
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(61)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.7269736842105263,
+            "auc_prc": 0.7920390679322871,
+            "auditor_fn_violation": 0.010376387397064087,
+            "auditor_fp_violation": 0.014321942296499544,
+            "ave_precision_score": 0.7933306377154452,
+            "fpr": 0.07456140350877193,
+            "logloss": 0.5636529404790394,
+            "mae": 0.38577602521042553,
+            "precision": 0.8196286472148541,
+            "recall": 0.6306122448979592
+        },
+        "train": {
+            "accuracy": 0.6992316136114161,
+            "auc_prc": 0.7474050321796992,
+            "auditor_fn_violation": 0.0001395775767440125,
+            "auditor_fp_violation": 0.00469282962155313,
+            "ave_precision_score": 0.7479743657200209,
+            "fpr": 0.0801317233809001,
+            "logloss": 0.5893841981337975,
+            "mae": 0.39838146404429664,
+            "precision": 0.7827380952380952,
+            "recall": 0.5668103448275862
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(62)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.6052631578947368,
+            "auc_prc": 0.7826585456304185,
+            "auditor_fn_violation": 0.01939670605084139,
+            "auditor_fp_violation": 0.046322856905296424,
+            "ave_precision_score": 0.7661659077567871,
+            "fpr": 0.3092105263157895,
+            "logloss": 0.6528334942437762,
+            "mae": 0.40140136425064776,
+            "precision": 0.5936599423631124,
+            "recall": 0.8408163265306122
+        },
+        "train": {
+            "accuracy": 0.6125137211855104,
+            "auc_prc": 0.76652059860857,
+            "auditor_fn_violation": 0.011159108974601614,
+            "auditor_fp_violation": 0.049027913864106876,
+            "ave_precision_score": 0.7469022320788485,
+            "fpr": 0.31613611416026344,
+            "logloss": 0.6560003303768189,
+            "mae": 0.4084999551702675,
+            "precision": 0.5807860262008734,
+            "recall": 0.8599137931034483
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(63)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.7401315789473685,
+            "auc_prc": 0.8360367980712327,
+            "auditor_fn_violation": 0.027255639097744366,
+            "auditor_fp_violation": 0.032712854410908786,
+            "ave_precision_score": 0.8285517111029475,
+            "fpr": 0.10855263157894737,
+            "logloss": 0.5568420027299825,
+            "mae": 0.3324915857222055,
+            "precision": 0.7804878048780488,
+            "recall": 0.7183673469387755
+        },
+        "train": {
+            "accuracy": 0.7596048298572997,
+            "auc_prc": 0.8277063284739639,
+            "auditor_fn_violation": 0.027149021537529815,
+            "auditor_fp_violation": 0.030912265450607417,
+            "ave_precision_score": 0.8255964201467518,
+            "fpr": 0.10318331503841932,
+            "logloss": 0.4992808826414255,
+            "mae": 0.3148618108783428,
+            "precision": 0.7829099307159353,
+            "recall": 0.7306034482758621
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(64)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.6096491228070176,
+            "auc_prc": 0.6360689314083359,
+            "auditor_fn_violation": 0.04675080558539206,
+            "auditor_fp_violation": 0.016426581857487323,
+            "ave_precision_score": 0.637351080916015,
+            "fpr": 0.14692982456140352,
+            "logloss": 0.7636572589579896,
+            "mae": 0.4366897106489265,
+            "precision": 0.6666666666666666,
+            "recall": 0.5469387755102041
+        },
+        "train": {
+            "accuracy": 0.6410537870472008,
+            "auc_prc": 0.6225985838506761,
+            "auditor_fn_violation": 0.03984821529959499,
+            "auditor_fp_violation": 0.03363808485402132,
+            "ave_precision_score": 0.6245458587999206,
+            "fpr": 0.16245883644346873,
+            "logloss": 0.7262539344055092,
+            "mae": 0.41402925542554725,
+            "precision": 0.6581986143187067,
+            "recall": 0.6142241379310345
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(65)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.5679824561403509,
+            "auc_prc": 0.6247534524646694,
+            "auditor_fn_violation": 0.005231829573934849,
+            "auditor_fp_violation": 0.01822461960588677,
+            "ave_precision_score": 0.5484107874922355,
+            "fpr": 0.29385964912280704,
+            "logloss": 6.562194728505652,
+            "mae": 0.4347755104403436,
+            "precision": 0.5759493670886076,
+            "recall": 0.7428571428571429
+        },
+        "train": {
+            "accuracy": 0.5554335894621295,
+            "auc_prc": 0.607753299612605,
+            "auditor_fn_violation": 0.0032386729247889812,
+            "auditor_fp_violation": 0.01740840878450555,
+            "ave_precision_score": 0.518058220039251,
+            "fpr": 0.3205268935236004,
+            "logloss": 7.422102157088864,
+            "mae": 0.455039684026151,
+            "precision": 0.5458786936236392,
+            "recall": 0.7564655172413793
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(66)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.6743421052631579,
+            "auc_prc": 0.7595794690517832,
+            "auditor_fn_violation": 0.0189827246688149,
+            "auditor_fp_violation": 0.020324062525983205,
+            "ave_precision_score": 0.7338637211728903,
+            "fpr": 0.1425438596491228,
+            "logloss": 3.1253990866564916,
+            "mae": 0.33029954333650324,
+            "precision": 0.7130242825607064,
+            "recall": 0.6591836734693878
+        },
+        "train": {
+            "accuracy": 0.712403951701427,
+            "auc_prc": 0.7794498964911185,
+            "auditor_fn_violation": 0.016881789621106032,
+            "auditor_fp_violation": 0.03427902076779702,
+            "ave_precision_score": 0.7531759654460987,
+            "fpr": 0.12952799121844127,
+            "logloss": 2.6965240820070577,
+            "mae": 0.2933874455839979,
+            "precision": 0.730593607305936,
+            "recall": 0.6896551724137931
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(67)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.7752192982456141,
+            "auc_prc": 0.8559958581700999,
+            "auditor_fn_violation": 0.01049946294307197,
+            "auditor_fp_violation": 0.007166167789141101,
+            "ave_precision_score": 0.7688422037726044,
+            "fpr": 0.08552631578947369,
+            "logloss": 0.5180107749380007,
+            "mae": 0.3479844369811186,
+            "precision": 0.8231292517006803,
+            "recall": 0.7408163265306122
+        },
+        "train": {
+            "accuracy": 0.7552140504939627,
+            "auc_prc": 0.8263731906291922,
+            "auditor_fn_violation": 0.0021835610734698475,
+            "auditor_fp_violation": 0.011227429110277815,
+            "ave_precision_score": 0.7261482845808379,
+            "fpr": 0.09220636663007684,
+            "logloss": 0.5471036042193315,
+            "mae": 0.36139754268916324,
+            "precision": 0.7946210268948656,
+            "recall": 0.7004310344827587
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(68)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.5701754385964912,
+            "auc_prc": 0.6994292053995809,
+            "auditor_fn_violation": 0.010331632653061227,
+            "auditor_fp_violation": 0.018037540533798954,
+            "ave_precision_score": 0.585614726520133,
+            "fpr": 0.3958333333333333,
+            "logloss": 0.6888601264209456,
+            "mae": 0.48360295031677214,
+            "precision": 0.5597560975609757,
+            "recall": 0.936734693877551
+        },
+        "train": {
+            "accuracy": 0.5389681668496158,
+            "auc_prc": 0.653575039881507,
+            "auditor_fn_violation": 0.01181441386880654,
+            "auditor_fp_violation": 0.01653663771404436,
+            "ave_precision_score": 0.5392704872986774,
+            "fpr": 0.43249176728869376,
+            "logloss": 0.7032323259393705,
+            "mae": 0.4906642669576714,
+            "precision": 0.5264423076923077,
+            "recall": 0.9439655172413793
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(69)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.7006578947368421,
+            "auc_prc": 0.8143322902695789,
+            "auditor_fn_violation": 0.056650554958825636,
+            "auditor_fp_violation": 0.04954997089881101,
+            "ave_precision_score": 0.8146712240451098,
+            "fpr": 0.14473684210526316,
+            "logloss": 0.622348017023997,
+            "mae": 0.33468370912072587,
+            "precision": 0.7255717255717256,
+            "recall": 0.7122448979591837
+        },
+        "train": {
+            "accuracy": 0.7299670691547749,
+            "auc_prc": 0.8257435107939514,
+            "auditor_fn_violation": 0.05270827813316175,
+            "auditor_fp_violation": 0.052382390715515315,
+            "ave_precision_score": 0.8259779827758862,
+            "fpr": 0.14050493962678376,
+            "logloss": 0.5939907490230126,
+            "mae": 0.31651585082275996,
+            "precision": 0.729957805907173,
+            "recall": 0.7456896551724138
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(70)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.6600877192982456,
+            "auc_prc": 0.7575007253122302,
+            "auditor_fn_violation": 0.019282581453634085,
+            "auditor_fp_violation": 0.022792466949363935,
+            "ave_precision_score": 0.7074293893806494,
+            "fpr": 0.19407894736842105,
+            "logloss": 3.3064796947385786,
+            "mae": 0.35573644650052055,
+            "precision": 0.6685393258426966,
+            "recall": 0.7285714285714285
+        },
+        "train": {
+            "accuracy": 0.70801317233809,
+            "auc_prc": 0.7754763943179437,
+            "auditor_fn_violation": 0.019531397857602485,
+            "auditor_fp_violation": 0.038652610279040406,
+            "ave_precision_score": 0.7249732488281381,
+            "fpr": 0.1800219538968167,
+            "logloss": 3.0585257388408658,
+            "mae": 0.3214833944682743,
+            "precision": 0.688212927756654,
+            "recall": 0.7801724137931034
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(71)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.6337719298245614,
+            "auc_prc": 0.6578209024994605,
+            "auditor_fn_violation": 0.013540547798066597,
+            "auditor_fp_violation": 0.01796738588176603,
+            "ave_precision_score": 0.6595202865638929,
+            "fpr": 0.32127192982456143,
+            "logloss": 0.731822700331131,
+            "mae": 0.42871394077838776,
+            "precision": 0.605121293800539,
+            "recall": 0.9163265306122449
+        },
+        "train": {
+            "accuracy": 0.6070252469813392,
+            "auc_prc": 0.6460117481355058,
+            "auditor_fn_violation": 0.016138953026231122,
+            "auditor_fp_violation": 0.0243064508603521,
+            "ave_precision_score": 0.647131385069849,
+            "fpr": 0.35016465422612514,
+            "logloss": 0.7632020301628245,
+            "mae": 0.44051660535168047,
+            "precision": 0.571236559139785,
+            "recall": 0.915948275862069
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(72)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.7708333333333334,
+            "auc_prc": 0.8022503831162204,
+            "auditor_fn_violation": 0.011340852130325816,
+            "auditor_fp_violation": 0.007831337823231062,
+            "ave_precision_score": 0.8027033093206943,
+            "fpr": 0.08223684210526316,
+            "logloss": 0.5841099013244813,
+            "mae": 0.32626129028819945,
+            "precision": 0.8259860788863109,
+            "recall": 0.726530612244898
+        },
+        "train": {
+            "accuracy": 0.7464324917672887,
+            "auc_prc": 0.7311281393654865,
+            "auditor_fn_violation": 0.0006434762860062905,
+            "auditor_fp_violation": 0.008594926046800597,
+            "ave_precision_score": 0.732170442969099,
+            "fpr": 0.0867178924259056,
+            "logloss": 0.6322593271911457,
+            "mae": 0.3434950080662841,
+            "precision": 0.7979539641943734,
+            "recall": 0.6724137931034483
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(73)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.5427631578947368,
+            "auc_prc": 0.6352436121952157,
+            "auditor_fn_violation": 0.005717418546365921,
+            "auditor_fp_violation": 0.013012388791884924,
+            "ave_precision_score": 0.6294766415298383,
+            "fpr": 0.1118421052631579,
+            "logloss": 0.7275919633834963,
+            "mae": 0.4613657136071931,
+            "precision": 0.631768953068592,
+            "recall": 0.35714285714285715
+        },
+        "train": {
+            "accuracy": 0.5598243688254665,
+            "auc_prc": 0.6435413723603808,
+            "auditor_fn_violation": 0.008791021613232915,
+            "auditor_fp_violation": 0.022336984949056646,
+            "ave_precision_score": 0.6427605909525284,
+            "fpr": 0.11086717892425905,
+            "logloss": 0.6939804493745484,
+            "mae": 0.44359312978144794,
+            "precision": 0.6188679245283019,
+            "recall": 0.35344827586206895
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(74)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.7697368421052632,
+            "auc_prc": 0.8557143145975701,
+            "auditor_fn_violation": 0.00951038310060867,
+            "auditor_fp_violation": 0.018489648291344477,
+            "ave_precision_score": 0.8557372560999635,
+            "fpr": 0.1425438596491228,
+            "logloss": 0.49990162516725656,
+            "mae": 0.33264264366344404,
+            "precision": 0.7592592592592593,
+            "recall": 0.8367346938775511
+        },
+        "train": {
+            "accuracy": 0.7661909989023051,
+            "auc_prc": 0.8422751443660488,
+            "auditor_fn_violation": 0.003084901018206596,
+            "auditor_fp_violation": 0.011706289275742422,
+            "ave_precision_score": 0.8424046599420507,
+            "fpr": 0.141602634467618,
+            "logloss": 0.5018071242476002,
+            "mae": 0.333061481154351,
+            "precision": 0.7465618860510805,
+            "recall": 0.8189655172413793
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(75)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.6973684210526315,
+            "auc_prc": 0.7847974482160136,
+            "auditor_fn_violation": 0.010964912280701756,
+            "auditor_fp_violation": 0.007997630331753552,
+            "ave_precision_score": 0.7851246021444817,
+            "fpr": 0.14364035087719298,
+            "logloss": 1.2193183225689368,
+            "mae": 0.31889892377015117,
+            "precision": 0.7247899159663865,
+            "recall": 0.7040816326530612
+        },
+        "train": {
+            "accuracy": 0.7156970362239298,
+            "auc_prc": 0.7914243153289466,
+            "auditor_fn_violation": 0.015327510503804086,
+            "auditor_fp_violation": 0.02940938123899543,
+            "ave_precision_score": 0.7928427820154891,
+            "fpr": 0.14489571899012074,
+            "logloss": 1.1208654247605896,
+            "mae": 0.2863672637282394,
+            "precision": 0.7185501066098081,
+            "recall": 0.7262931034482759
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(76)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.7412280701754386,
+            "auc_prc": 0.8166353163192429,
+            "auditor_fn_violation": 0.013157894736842113,
+            "auditor_fp_violation": 0.0180635237382556,
+            "ave_precision_score": 0.8155051561613411,
+            "fpr": 0.1206140350877193,
+            "logloss": 0.5417917209749135,
+            "mae": 0.3591314441628607,
+            "precision": 0.7679324894514767,
+            "recall": 0.7428571428571429
+        },
+        "train": {
+            "accuracy": 0.7442371020856202,
+            "auc_prc": 0.8104593875932874,
+            "auditor_fn_violation": 0.0005204587607403777,
+            "auditor_fp_violation": 0.007160801243563017,
+            "ave_precision_score": 0.8097239911433258,
+            "fpr": 0.11964873765093303,
+            "logloss": 0.5253787567669616,
+            "mae": 0.34737429949971227,
+            "precision": 0.7572383073496659,
+            "recall": 0.7327586206896551
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(77)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.680921052631579,
+            "auc_prc": 0.7476853329374185,
+            "auditor_fn_violation": 0.011627282491944151,
+            "auditor_fp_violation": 0.006979088717053295,
+            "ave_precision_score": 0.7119392668997059,
+            "fpr": 0.11293859649122807,
+            "logloss": 0.6082663796207489,
+            "mae": 0.41231146696628185,
+            "precision": 0.745679012345679,
+            "recall": 0.6163265306122448
+        },
+        "train": {
+            "accuracy": 0.7156970362239298,
+            "auc_prc": 0.7616738738520288,
+            "auditor_fn_violation": 0.0053749195654642515,
+            "auditor_fp_violation": 0.00940530478835609,
+            "ave_precision_score": 0.717918685434098,
+            "fpr": 0.10428100987925357,
+            "logloss": 0.5873810333692843,
+            "mae": 0.4050548598088496,
+            "precision": 0.759493670886076,
+            "recall": 0.646551724137931
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(78)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.5997807017543859,
+            "auc_prc": 0.6125154595696646,
+            "auditor_fn_violation": 0.020640887934121017,
+            "auditor_fp_violation": 0.016104390122224994,
+            "ave_precision_score": 0.6093715024572842,
+            "fpr": 0.3256578947368421,
+            "logloss": 2.7417306966993293,
+            "mae": 0.4136750318217114,
+            "precision": 0.5869262865090403,
+            "recall": 0.8612244897959184
+        },
+        "train": {
+            "accuracy": 0.6180021953896817,
+            "auc_prc": 0.5959561406315395,
+            "auditor_fn_violation": 0.015041258185396872,
+            "auditor_fp_violation": 0.006225182151039864,
+            "ave_precision_score": 0.5926666191762983,
+            "fpr": 0.3227222832052689,
+            "logloss": 2.6363649358089827,
+            "mae": 0.39580448850344657,
+            "precision": 0.5823863636363636,
+            "recall": 0.8836206896551724
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(79)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.6129385964912281,
+            "auc_prc": 0.7133140684735774,
+            "auditor_fn_violation": 0.007196562835660596,
+            "auditor_fp_violation": 0.002289120312629916,
+            "ave_precision_score": 0.7099092735337034,
+            "fpr": 0.03179824561403509,
+            "logloss": 1.013446203533861,
+            "mae": 0.4555534555029385,
+            "precision": 0.8512820512820513,
+            "recall": 0.33877551020408164
+        },
+        "train": {
+            "accuracy": 0.6542261251372119,
+            "auc_prc": 0.7568198772927258,
+            "auditor_fn_violation": 0.00498930693818844,
+            "auditor_fp_violation": 0.0015495423815803364,
+            "ave_precision_score": 0.7481272911865535,
+            "fpr": 0.01756311745334797,
+            "logloss": 0.9044194295675194,
+            "mae": 0.41463440077626745,
+            "precision": 0.9116022099447514,
+            "recall": 0.35560344827586204
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(80)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.5383771929824561,
+            "auc_prc": 0.7667845812605082,
+            "auditor_fn_violation": 0.0025062656641604013,
+            "auditor_fp_violation": 0.0023177018375322143,
+            "ave_precision_score": 0.5382804810106764,
+            "fpr": 0.45614035087719296,
+            "logloss": 0.6970590093410837,
+            "mae": 0.49682651105614606,
+            "precision": 0.5382907880133185,
+            "recall": 0.9897959183673469
+        },
+        "train": {
+            "accuracy": 0.5214050493962679,
+            "auc_prc": 0.7577777777777778,
+            "auditor_fn_violation": 0.0,
+            "auditor_fp_violation": 0.0034502488845013814,
+            "ave_precision_score": 0.5155555555555555,
+            "fpr": 0.47859495060373214,
+            "logloss": 0.685961418402486,
+            "mae": 0.49369379510013256,
+            "precision": 0.5155555555555555,
+            "recall": 1.0
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(81)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.7171052631578947,
+            "auc_prc": 0.8018776389218669,
+            "auditor_fn_violation": 0.03521303258145364,
+            "auditor_fp_violation": 0.008912239128627255,
+            "ave_precision_score": 0.8023823298576722,
+            "fpr": 0.046052631578947366,
+            "logloss": 0.6924640019485327,
+            "mae": 0.3885854417294787,
+            "precision": 0.8670886075949367,
+            "recall": 0.5591836734693878
+        },
+        "train": {
+            "accuracy": 0.7135016465422612,
+            "auc_prc": 0.7728359607075015,
+            "auditor_fn_violation": 0.0271963359703244,
+            "auditor_fp_violation": 0.012791705650795522,
+            "ave_precision_score": 0.7735630250768244,
+            "fpr": 0.06695938529088913,
+            "logloss": 0.7835900987384009,
+            "mae": 0.3950471772508684,
+            "precision": 0.8123076923076923,
+            "recall": 0.5689655172413793
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(82)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.7335526315789473,
+            "auc_prc": 0.8284203230168392,
+            "auditor_fn_violation": 0.038677049767275325,
+            "auditor_fp_violation": 0.027692899309886092,
+            "ave_precision_score": 0.7925506565345346,
+            "fpr": 0.12719298245614036,
+            "logloss": 0.5541250288163593,
+            "mae": 0.3768450994404,
+            "precision": 0.7578288100208769,
+            "recall": 0.7408163265306122
+        },
+        "train": {
+            "accuracy": 0.7387486278814489,
+            "auc_prc": 0.8120595589353973,
+            "auditor_fn_violation": 0.03047995760626822,
+            "auditor_fp_violation": 0.028363255954441984,
+            "ave_precision_score": 0.7695853576102145,
+            "fpr": 0.13172338090010977,
+            "logloss": 0.5532083715506202,
+            "mae": 0.3754295520688909,
+            "precision": 0.7424892703862661,
+            "recall": 0.7456896551724138
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(83)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.7412280701754386,
+            "auc_prc": 0.8587242496335522,
+            "auditor_fn_violation": 0.005516022198353027,
+            "auditor_fp_violation": 0.01986675812754636,
+            "ave_precision_score": 0.8589788853817735,
+            "fpr": 0.18530701754385964,
+            "logloss": 0.5435107318880283,
+            "mae": 0.33322498912482906,
+            "precision": 0.714527027027027,
+            "recall": 0.863265306122449
+        },
+        "train": {
+            "accuracy": 0.7607025246981339,
+            "auc_prc": 0.8413569723336582,
+            "auditor_fn_violation": 0.00011355463870699165,
+            "auditor_fp_violation": 0.0030647050589734767,
+            "ave_precision_score": 0.8417380356545797,
+            "fpr": 0.1778265642151482,
+            "logloss": 0.5516674927557009,
+            "mae": 0.3411143459993058,
+            "precision": 0.7157894736842105,
+            "recall": 0.8793103448275862
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(84)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.5646929824561403,
+            "auc_prc": 0.7007795603538973,
+            "auditor_fn_violation": 0.008928571428571447,
+            "auditor_fp_violation": 0.00712719298245614,
+            "ave_precision_score": 0.6980209386804984,
+            "fpr": 0.051535087719298246,
+            "logloss": 3.0110482958574334,
+            "mae": 0.4294044882547298,
+            "precision": 0.7486631016042781,
+            "recall": 0.2857142857142857
+        },
+        "train": {
+            "accuracy": 0.5828759604829857,
+            "auc_prc": 0.666246512776404,
+            "auditor_fn_violation": 0.011457189901207459,
+            "auditor_fp_violation": 0.003767033301654893,
+            "ave_precision_score": 0.6662802330591089,
+            "fpr": 0.06695938529088913,
+            "logloss": 3.063693169036869,
+            "mae": 0.41574762648618885,
+            "precision": 0.7038834951456311,
+            "recall": 0.3125
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(85)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.7719298245614035,
+            "auc_prc": 0.841687564461624,
+            "auditor_fn_violation": 0.012307554600787685,
+            "auditor_fp_violation": 0.007820944541448407,
+            "ave_precision_score": 0.8096348872347092,
+            "fpr": 0.08552631578947369,
+            "logloss": 0.5464376477248171,
+            "mae": 0.3589956868243845,
+            "precision": 0.821917808219178,
+            "recall": 0.7346938775510204
+        },
+        "train": {
+            "accuracy": 0.7508232711306256,
+            "auc_prc": 0.802428674949609,
+            "auditor_fn_violation": 0.001140277830349379,
+            "auditor_fp_violation": 0.009373380777325116,
+            "ave_precision_score": 0.7623571320158105,
+            "fpr": 0.09330406147091108,
+            "logloss": 0.603576968394844,
+            "mae": 0.38637098005914533,
+            "precision": 0.7911547911547911,
+            "recall": 0.6939655172413793
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(86)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.5822368421052632,
+            "auc_prc": 0.640452956244038,
+            "auditor_fn_violation": 0.007814178302900113,
+            "auditor_fp_violation": 0.009257815747900558,
+            "ave_precision_score": 0.6029196091610975,
+            "fpr": 0.10635964912280702,
+            "logloss": 0.7088486732320861,
+            "mae": 0.478510775554337,
+            "precision": 0.6798679867986799,
+            "recall": 0.4204081632653061
+        },
+        "train": {
+            "accuracy": 0.6180021953896817,
+            "auc_prc": 0.6235458451146774,
+            "auditor_fn_violation": 0.016295090654453233,
+            "auditor_fp_violation": 0.02109931559831736,
+            "ave_precision_score": 0.5800234431261074,
+            "fpr": 0.10537870472008781,
+            "logloss": 0.720124104249027,
+            "mae": 0.4783260541611262,
+            "precision": 0.6883116883116883,
+            "recall": 0.45689655172413796
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(87)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.5021929824561403,
+            "auc_prc": 0.5863873990969154,
+            "auditor_fn_violation": 0.008035714285714287,
+            "auditor_fp_violation": 0.005414899808763614,
+            "ave_precision_score": 0.587740351512331,
+            "fpr": 0.18311403508771928,
+            "logloss": 0.6885710460991563,
+            "mae": 0.49606176900366944,
+            "precision": 0.5486486486486486,
+            "recall": 0.4142857142857143
+        },
+        "train": {
+            "accuracy": 0.4862788144895719,
+            "auc_prc": 0.5383208633702047,
+            "auditor_fn_violation": 0.005337068019228592,
+            "auditor_fp_violation": 0.008396014901146073,
+            "ave_precision_score": 0.5402742248926398,
+            "fpr": 0.20636663007683864,
+            "logloss": 0.6918948779857,
+            "mae": 0.4972937398893773,
+            "precision": 0.4946236559139785,
+            "recall": 0.39655172413793105
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(88)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.7335526315789473,
+            "auc_prc": 0.8479054738450316,
+            "auditor_fn_violation": 0.040494092373791625,
+            "auditor_fp_violation": 0.022522241623014885,
+            "ave_precision_score": 0.8381653769854303,
+            "fpr": 0.13706140350877194,
+            "logloss": 0.5105311508011081,
+            "mae": 0.34284040925762893,
+            "precision": 0.7484909456740443,
+            "recall": 0.7591836734693878
+        },
+        "train": {
+            "accuracy": 0.7749725576289791,
+            "auc_prc": 0.8508253967542837,
+            "auditor_fn_violation": 0.024471024641356608,
+            "auditor_fp_violation": 0.03232674470859517,
+            "ave_precision_score": 0.8435431817115201,
+            "fpr": 0.12184412733260154,
+            "logloss": 0.47978238039280385,
+            "mae": 0.321719817408288,
+            "precision": 0.7692307692307693,
+            "recall": 0.7974137931034483
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(89)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.7368421052631579,
+            "auc_prc": 0.7936462810876568,
+            "auditor_fn_violation": 0.00864437880415324,
+            "auditor_fp_violation": 0.0004910825642304838,
+            "ave_precision_score": 0.7859679367381323,
+            "fpr": 0.0625,
+            "logloss": 1.0479501022456559,
+            "mae": 0.3484287277610827,
+            "precision": 0.8434065934065934,
+            "recall": 0.6265306122448979
+        },
+        "train": {
+            "accuracy": 0.7178924259055982,
+            "auc_prc": 0.7325507661141146,
+            "auditor_fn_violation": 0.00802452780196071,
+            "auditor_fp_violation": 0.013297578440978645,
+            "ave_precision_score": 0.7259849408425465,
+            "fpr": 0.06586169045005488,
+            "logloss": 1.356128876791873,
+            "mae": 0.35686090915209423,
+            "precision": 0.8165137614678899,
+            "recall": 0.5754310344827587
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(90)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.5032894736842105,
+            "auc_prc": 0.5484480732254969,
+            "auditor_fn_violation": 0.0033521303258145403,
+            "auditor_fp_violation": 0.012851292924253766,
+            "ave_precision_score": 0.5497836308148252,
+            "fpr": 0.30372807017543857,
+            "logloss": 0.7386624820670371,
+            "mae": 0.4982920487721761,
+            "precision": 0.5313028764805414,
+            "recall": 0.6408163265306123
+        },
+        "train": {
+            "accuracy": 0.4544456641053787,
+            "auc_prc": 0.4932142851960849,
+            "auditor_fn_violation": 0.014885120557174763,
+            "auditor_fp_violation": 0.01911265983492833,
+            "ave_precision_score": 0.4948166481814168,
+            "fpr": 0.3413830954994512,
+            "logloss": 0.7798539577627779,
+            "mae": 0.5130619350800972,
+            "precision": 0.47198641765704585,
+            "recall": 0.5991379310344828
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(91)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.5383771929824561,
+            "auc_prc": 0.6889271417610842,
+            "auditor_fn_violation": 0.012918456856426784,
+            "auditor_fp_violation": 0.024928286355699686,
+            "ave_precision_score": 0.5589798641607293,
+            "fpr": 0.2894736842105263,
+            "logloss": 9.193839771994286,
+            "mae": 0.45431443806987853,
+            "precision": 0.5577889447236181,
+            "recall": 0.6795918367346939
+        },
+        "train": {
+            "accuracy": 0.5225027442371021,
+            "auc_prc": 0.656163481955662,
+            "auditor_fn_violation": 0.006645312085998711,
+            "auditor_fp_violation": 0.0031162746152542803,
+            "ave_precision_score": 0.5154447172369119,
+            "fpr": 0.31613611416026344,
+            "logloss": 10.265411037814259,
+            "mae": 0.4831504018251274,
+            "precision": 0.5239669421487604,
+            "recall": 0.6831896551724138
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(92)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.7675438596491229,
+            "auc_prc": 0.8479426463183123,
+            "auditor_fn_violation": 0.008682420336555675,
+            "auditor_fp_violation": 0.009605990687619522,
+            "ave_precision_score": 0.7991365727893806,
+            "fpr": 0.09100877192982457,
+            "logloss": 1.9665283036707226,
+            "mae": 0.3151701193691028,
+            "precision": 0.8130630630630631,
+            "recall": 0.736734693877551
+        },
+        "train": {
+            "accuracy": 0.7585071350164654,
+            "auc_prc": 0.8175793709118742,
+            "auditor_fn_violation": 0.0008138082440667745,
+            "auditor_fp_violation": 0.011227429110277815,
+            "ave_precision_score": 0.767022113281357,
+            "fpr": 0.09220636663007684,
+            "logloss": 2.01166153100716,
+            "mae": 0.3364157265258244,
+            "precision": 0.7961165048543689,
+            "recall": 0.7068965517241379
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(93)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.6842105263157895,
+            "auc_prc": 0.7157924214745907,
+            "auditor_fn_violation": 0.03977130325814537,
+            "auditor_fp_violation": 0.04332959175189158,
+            "ave_precision_score": 0.7106810451159167,
+            "fpr": 0.17653508771929824,
+            "logloss": 2.935454322500882,
+            "mae": 0.321408161050343,
+            "precision": 0.6927480916030534,
+            "recall": 0.7408163265306122
+        },
+        "train": {
+            "accuracy": 0.7387486278814489,
+            "auc_prc": 0.7603568164039307,
+            "auditor_fn_violation": 0.027428176691017825,
+            "auditor_fp_violation": 0.03748370033667553,
+            "ave_precision_score": 0.7528564817607354,
+            "fpr": 0.15477497255762898,
+            "logloss": 2.293460388325568,
+            "mae": 0.2744253257674748,
+            "precision": 0.7224409448818898,
+            "recall": 0.790948275862069
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(94)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.7752192982456141,
+            "auc_prc": 0.8621056976215764,
+            "auditor_fn_violation": 0.012699158610812751,
+            "auditor_fp_violation": 0.010466034755134284,
+            "ave_precision_score": 0.8595419652438737,
+            "fpr": 0.09868421052631579,
+            "logloss": 0.49837230769280183,
+            "mae": 0.30033830644383114,
+            "precision": 0.8064516129032258,
+            "recall": 0.7653061224489796
+        },
+        "train": {
+            "accuracy": 0.7936333699231614,
+            "auc_prc": 0.8637423346399338,
+            "auditor_fn_violation": 0.010702524698133922,
+            "auditor_fp_violation": 0.011706289275742417,
+            "ave_precision_score": 0.8619188404293596,
+            "fpr": 0.07903402854006586,
+            "logloss": 0.4849127246845468,
+            "mae": 0.2910091129799182,
+            "precision": 0.8285714285714286,
+            "recall": 0.75
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(95)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.7291666666666666,
+            "auc_prc": 0.7921722843850714,
+            "auditor_fn_violation": 0.01426333691371286,
+            "auditor_fp_violation": 0.005300573709154403,
+            "ave_precision_score": 0.7868754961893856,
+            "fpr": 0.08223684210526316,
+            "logloss": 0.5914479951168626,
+            "mae": 0.37607738825803,
+            "precision": 0.8091603053435115,
+            "recall": 0.6489795918367347
+        },
+        "train": {
+            "accuracy": 0.7178924259055982,
+            "auc_prc": 0.7233915284018149,
+            "auditor_fn_violation": 0.01391044324160642,
+            "auditor_fp_violation": 0.0010313911256160772,
+            "ave_precision_score": 0.7255479218613781,
+            "fpr": 0.08232711306256861,
+            "logloss": 0.6128812884788735,
+            "mae": 0.3865886851654487,
+            "precision": 0.7899159663865546,
+            "recall": 0.6077586206896551
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(96)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.5054824561403509,
+            "auc_prc": 0.6171979415519897,
+            "auditor_fn_violation": 0.009814715359828155,
+            "auditor_fp_violation": 0.006716658352041242,
+            "ave_precision_score": 0.6168137057613541,
+            "fpr": 0.03179824561403509,
+            "logloss": 0.8713059939438699,
+            "mae": 0.486439826424446,
+            "precision": 0.7010309278350515,
+            "recall": 0.13877551020408163
+        },
+        "train": {
+            "accuracy": 0.5246981339187706,
+            "auc_prc": 0.6033320647162177,
+            "auditor_fn_violation": 0.002879083235550175,
+            "auditor_fp_violation": 0.014380539122875517,
+            "ave_precision_score": 0.6024136634213624,
+            "fpr": 0.04610318331503842,
+            "logloss": 0.7980873070753751,
+            "mae": 0.4650651365406116,
+            "precision": 0.6347826086956522,
+            "recall": 0.15732758620689655
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(97)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.7160087719298246,
+            "auc_prc": 0.7804269081632215,
+            "auditor_fn_violation": 0.01549633011099177,
+            "auditor_fp_violation": 0.010949322358027772,
+            "ave_precision_score": 0.7686062699983156,
+            "fpr": 0.10307017543859649,
+            "logloss": 1.9734899022071233,
+            "mae": 0.30199839422995317,
+            "precision": 0.7756563245823389,
+            "recall": 0.6632653061224489
+        },
+        "train": {
+            "accuracy": 0.7365532381997805,
+            "auc_prc": 0.79017299110185,
+            "auditor_fn_violation": 0.01372118551042811,
+            "auditor_fp_violation": 0.027459560872949804,
+            "ave_precision_score": 0.780135019742769,
+            "fpr": 0.10098792535675083,
+            "logloss": 1.642238393320444,
+            "mae": 0.27682238709614954,
+            "precision": 0.7745098039215687,
+            "recall": 0.6810344827586207
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(98)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.6853070175438597,
+            "auc_prc": 0.7614050968307741,
+            "auditor_fn_violation": 0.051087540279269615,
+            "auditor_fp_violation": 0.019123638480086476,
+            "ave_precision_score": 0.76239833860727,
+            "fpr": 0.0668859649122807,
+            "logloss": 0.6290284779410342,
+            "mae": 0.37347600371740236,
+            "precision": 0.8123076923076923,
+            "recall": 0.5387755102040817
+        },
+        "train": {
+            "accuracy": 0.7135016465422612,
+            "auc_prc": 0.7859684220192737,
+            "auditor_fn_violation": 0.04422243461145388,
+            "auditor_fp_violation": 0.017899547415751307,
+            "ave_precision_score": 0.7865527301843664,
+            "fpr": 0.06147091108671789,
+            "logloss": 0.566259937025076,
+            "mae": 0.35167111023855685,
+            "precision": 0.8222222222222222,
+            "recall": 0.5581896551724138
+        }
+    },
+    {
+        "dataset": "lawschool",
+        "method": "feat_random_p100_g0",
+        "model": "feat_random_p100_g0:archive(99)",
+        "seed": 9540,
+        "test": {
+            "accuracy": 0.6546052631578947,
+            "auc_prc": 0.7730589906380463,
+            "auditor_fn_violation": 0.011278195488721809,
+            "auditor_fp_violation": 0.01421281283778166,
+            "ave_precision_score": 0.6631927663644139,
+            "fpr": 0.15350877192982457,
+            "logloss": 0.6355286155162382,
+            "mae": 0.4153636190059938,
+            "precision": 0.6923076923076923,
+            "recall": 0.6428571428571429
+        },
+        "train": {
+            "accuracy": 0.70801317233809,
+            "auc_prc": 0.7939406385847341,
+            "auditor_fn_violation": 0.014132821075740942,
+            "auditor_fp_violation": 0.03574015819575313,
+            "ave_precision_score": 0.6870196629757888,
+            "fpr": 0.132821075740944,
+            "logloss": 0.5870810562698707,
+            "mae": 0.38851426015112195,
+            "precision": 0.725,
+            "recall": 0.6875
+        }
+    }
+]
