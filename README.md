@@ -5,7 +5,7 @@ This repo contains code to reproduce the experiments in the paper
 La Cava, W. and Moore, J.H. (2020). 
 "Genetic programming approaches to learning fair classifiers."
 GECCO 2020.
-[doi:10.1145/3377930.3390157](doi.org/10.1145/3377930.3390157)
+[doi:10.1145/3377930.3390157](https://doi.org/10.1145/3377930.3390157)
 arxiv:tba
 
 
